@@ -1,0 +1,953 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 699,
+                    "language": "x-unspecified",
+                    "documentTitle": "243.%20abbc-00023%20Despite%20its%20wishful%20thinking,%20the%20Turnbull%20Government's%20May%202%20announcement%20of%20.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/2012/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/2012/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/2012/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 194
+                },
+                {
+                    "sofa": 12,
+                    "begin": 196,
+                    "end": 313
+                },
+                {
+                    "sofa": 12,
+                    "begin": 313,
+                    "end": 444
+                },
+                {
+                    "sofa": 12,
+                    "begin": 444,
+                    "end": 569
+                },
+                {
+                    "sofa": 12,
+                    "begin": 571,
+                    "end": 637
+                },
+                {
+                    "sofa": 12,
+                    "begin": 638,
+                    "end": 697
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 19
+                },
+                {
+                    "sofa": 12,
+                    "begin": 20,
+                    "end": 23
+                },
+                {
+                    "sofa": 12,
+                    "begin": 24,
+                    "end": 31
+                },
+                {
+                    "sofa": 12,
+                    "begin": 32,
+                    "end": 40
+                },
+                {
+                    "sofa": 12,
+                    "begin": 40,
+                    "end": 41
+                },
+                {
+                    "sofa": 12,
+                    "begin": 42,
+                    "end": 45
+                },
+                {
+                    "sofa": 12,
+                    "begin": 46,
+                    "end": 54
+                },
+                {
+                    "sofa": 12,
+                    "begin": 55,
+                    "end": 67
+                },
+                {
+                    "sofa": 12,
+                    "begin": 68,
+                    "end": 71
+                },
+                {
+                    "sofa": 12,
+                    "begin": 72,
+                    "end": 73
+                },
+                {
+                    "sofa": 12,
+                    "begin": 74,
+                    "end": 86
+                },
+                {
+                    "sofa": 12,
+                    "begin": 87,
+                    "end": 89
+                },
+                {
+                    "sofa": 12,
+                    "begin": 90,
+                    "end": 91
+                },
+                {
+                    "sofa": 12,
+                    "begin": 91,
+                    "end": 94
+                },
+                {
+                    "sofa": 12,
+                    "begin": 95,
+                    "end": 101
+                },
+                {
+                    "sofa": 12,
+                    "begin": 102,
+                    "end": 109
+                },
+                {
+                    "sofa": 12,
+                    "begin": 110,
+                    "end": 117
+                },
+                {
+                    "sofa": 12,
+                    "begin": 118,
+                    "end": 121
+                },
+                {
+                    "sofa": 12,
+                    "begin": 122,
+                    "end": 132
+                },
+                {
+                    "sofa": 12,
+                    "begin": 133,
+                    "end": 140
+                },
+                {
+                    "sofa": 12,
+                    "begin": 140,
+                    "end": 141
+                },
+                {
+                    "sofa": 12,
+                    "begin": 142,
+                    "end": 145
+                },
+                {
+                    "sofa": 12,
+                    "begin": 146,
+                    "end": 149
+                },
+                {
+                    "sofa": 12,
+                    "begin": 150,
+                    "end": 157
+                },
+                {
+                    "sofa": 12,
+                    "begin": 158,
+                    "end": 159
+                },
+                {
+                    "sofa": 12,
+                    "begin": 159,
+                    "end": 162
+                },
+                {
+                    "sofa": 12,
+                    "begin": 163,
+                    "end": 169
+                },
+                {
+                    "sofa": 12,
+                    "begin": 170,
+                    "end": 177
+                },
+                {
+                    "sofa": 12,
+                    "begin": 178,
+                    "end": 182
+                },
+                {
+                    "sofa": 12,
+                    "begin": 183,
+                    "end": 185
+                },
+                {
+                    "sofa": 12,
+                    "begin": 186,
+                    "end": 188
+                },
+                {
+                    "sofa": 12,
+                    "begin": 189,
+                    "end": 192
+                },
+                {
+                    "sofa": 12,
+                    "begin": 192,
+                    "end": 193
+                },
+                {
+                    "sofa": 12,
+                    "begin": 193,
+                    "end": 194
+                },
+                {
+                    "sofa": 12,
+                    "begin": 196,
+                    "end": 202
+                },
+                {
+                    "sofa": 12,
+                    "begin": 202,
+                    "end": 203
+                },
+                {
+                    "sofa": 12,
+                    "begin": 204,
+                    "end": 209
+                },
+                {
+                    "sofa": 12,
+                    "begin": 209,
+                    "end": 210
+                },
+                {
+                    "sofa": 12,
+                    "begin": 210,
+                    "end": 211
+                },
+                {
+                    "sofa": 12,
+                    "begin": 211,
+                    "end": 212
+                },
+                {
+                    "sofa": 12,
+                    "begin": 212,
+                    "end": 228
+                },
+                {
+                    "sofa": 12,
+                    "begin": 228,
+                    "end": 229
+                },
+                {
+                    "sofa": 12,
+                    "begin": 229,
+                    "end": 244
+                },
+                {
+                    "sofa": 12,
+                    "begin": 244,
+                    "end": 245
+                },
+                {
+                    "sofa": 12,
+                    "begin": 245,
+                    "end": 251
+                },
+                {
+                    "sofa": 12,
+                    "begin": 251,
+                    "end": 252
+                },
+                {
+                    "sofa": 12,
+                    "begin": 252,
+                    "end": 254
+                },
+                {
+                    "sofa": 12,
+                    "begin": 254,
+                    "end": 270
+                },
+                {
+                    "sofa": 12,
+                    "begin": 270,
+                    "end": 271
+                },
+                {
+                    "sofa": 12,
+                    "begin": 271,
+                    "end": 272
+                },
+                {
+                    "sofa": 12,
+                    "begin": 272,
+                    "end": 293
+                },
+                {
+                    "sofa": 12,
+                    "begin": 293,
+                    "end": 294
+                },
+                {
+                    "sofa": 12,
+                    "begin": 294,
+                    "end": 295
+                },
+                {
+                    "sofa": 12,
+                    "begin": 295,
+                    "end": 311
+                },
+                {
+                    "sofa": 12,
+                    "begin": 311,
+                    "end": 312
+                },
+                {
+                    "sofa": 12,
+                    "begin": 312,
+                    "end": 313
+                },
+                {
+                    "sofa": 12,
+                    "begin": 313,
+                    "end": 317
+                },
+                {
+                    "sofa": 12,
+                    "begin": 317,
+                    "end": 318
+                },
+                {
+                    "sofa": 12,
+                    "begin": 318,
+                    "end": 320
+                },
+                {
+                    "sofa": 12,
+                    "begin": 320,
+                    "end": 327
+                },
+                {
+                    "sofa": 12,
+                    "begin": 330,
+                    "end": 334
+                },
+                {
+                    "sofa": 12,
+                    "begin": 335,
+                    "end": 343
+                },
+                {
+                    "sofa": 12,
+                    "begin": 343,
+                    "end": 344
+                },
+                {
+                    "sofa": 12,
+                    "begin": 345,
+                    "end": 350
+                },
+                {
+                    "sofa": 12,
+                    "begin": 350,
+                    "end": 351
+                },
+                {
+                    "sofa": 12,
+                    "begin": 351,
+                    "end": 352
+                },
+                {
+                    "sofa": 12,
+                    "begin": 352,
+                    "end": 353
+                },
+                {
+                    "sofa": 12,
+                    "begin": 353,
+                    "end": 367
+                },
+                {
+                    "sofa": 12,
+                    "begin": 367,
+                    "end": 368
+                },
+                {
+                    "sofa": 12,
+                    "begin": 368,
+                    "end": 372
+                },
+                {
+                    "sofa": 12,
+                    "begin": 372,
+                    "end": 373
+                },
+                {
+                    "sofa": 12,
+                    "begin": 373,
+                    "end": 377
+                },
+                {
+                    "sofa": 12,
+                    "begin": 377,
+                    "end": 378
+                },
+                {
+                    "sofa": 12,
+                    "begin": 378,
+                    "end": 380
+                },
+                {
+                    "sofa": 12,
+                    "begin": 380,
+                    "end": 381
+                },
+                {
+                    "sofa": 12,
+                    "begin": 381,
+                    "end": 383
+                },
+                {
+                    "sofa": 12,
+                    "begin": 383,
+                    "end": 384
+                },
+                {
+                    "sofa": 12,
+                    "begin": 384,
+                    "end": 417
+                },
+                {
+                    "sofa": 12,
+                    "begin": 417,
+                    "end": 418
+                },
+                {
+                    "sofa": 12,
+                    "begin": 418,
+                    "end": 435
+                },
+                {
+                    "sofa": 12,
+                    "begin": 435,
+                    "end": 436
+                },
+                {
+                    "sofa": 12,
+                    "begin": 436,
+                    "end": 443
+                },
+                {
+                    "sofa": 12,
+                    "begin": 443,
+                    "end": 444
+                },
+                {
+                    "sofa": 12,
+                    "begin": 444,
+                    "end": 446
+                },
+                {
+                    "sofa": 12,
+                    "begin": 446,
+                    "end": 447
+                },
+                {
+                    "sofa": 12,
+                    "begin": 447,
+                    "end": 449
+                },
+                {
+                    "sofa": 12,
+                    "begin": 449,
+                    "end": 450
+                },
+                {
+                    "sofa": 12,
+                    "begin": 450,
+                    "end": 451
+                },
+                {
+                    "sofa": 12,
+                    "begin": 451,
+                    "end": 463
+                },
+                {
+                    "sofa": 12,
+                    "begin": 466,
+                    "end": 472
+                },
+                {
+                    "sofa": 12,
+                    "begin": 473,
+                    "end": 480
+                },
+                {
+                    "sofa": 12,
+                    "begin": 480,
+                    "end": 481
+                },
+                {
+                    "sofa": 12,
+                    "begin": 484,
+                    "end": 486
+                },
+                {
+                    "sofa": 12,
+                    "begin": 487,
+                    "end": 491
+                },
+                {
+                    "sofa": 12,
+                    "begin": 492,
+                    "end": 493
+                },
+                {
+                    "sofa": 12,
+                    "begin": 496,
+                    "end": 501
+                },
+                {
+                    "sofa": 12,
+                    "begin": 502,
+                    "end": 511
+                },
+                {
+                    "sofa": 12,
+                    "begin": 513,
+                    "end": 516
+                },
+                {
+                    "sofa": 12,
+                    "begin": 517,
+                    "end": 518
+                },
+                {
+                    "sofa": 12,
+                    "begin": 518,
+                    "end": 519
+                },
+                {
+                    "sofa": 12,
+                    "begin": 520,
+                    "end": 524
+                },
+                {
+                    "sofa": 12,
+                    "begin": 526,
+                    "end": 527
+                },
+                {
+                    "sofa": 12,
+                    "begin": 530,
+                    "end": 537
+                },
+                {
+                    "sofa": 12,
+                    "begin": 538,
+                    "end": 546
+                },
+                {
+                    "sofa": 12,
+                    "begin": 547,
+                    "end": 551
+                },
+                {
+                    "sofa": 12,
+                    "begin": 552,
+                    "end": 556
+                },
+                {
+                    "sofa": 12,
+                    "begin": 557,
+                    "end": 559
+                },
+                {
+                    "sofa": 12,
+                    "begin": 560,
+                    "end": 561
+                },
+                {
+                    "sofa": 12,
+                    "begin": 561,
+                    "end": 565
+                },
+                {
+                    "sofa": 12,
+                    "begin": 565,
+                    "end": 566
+                },
+                {
+                    "sofa": 12,
+                    "begin": 566,
+                    "end": 567
+                },
+                {
+                    "sofa": 12,
+                    "begin": 567,
+                    "end": 568
+                },
+                {
+                    "sofa": 12,
+                    "begin": 568,
+                    "end": 569
+                },
+                {
+                    "sofa": 12,
+                    "begin": 571,
+                    "end": 576
+                },
+                {
+                    "sofa": 12,
+                    "begin": 577,
+                    "end": 584
+                },
+                {
+                    "sofa": 12,
+                    "begin": 584,
+                    "end": 585
+                },
+                {
+                    "sofa": 12,
+                    "begin": 586,
+                    "end": 587
+                },
+                {
+                    "sofa": 12,
+                    "begin": 587,
+                    "end": 590
+                },
+                {
+                    "sofa": 12,
+                    "begin": 591,
+                    "end": 599
+                },
+                {
+                    "sofa": 12,
+                    "begin": 600,
+                    "end": 603
+                },
+                {
+                    "sofa": 12,
+                    "begin": 604,
+                    "end": 611
+                },
+                {
+                    "sofa": 12,
+                    "begin": 612,
+                    "end": 615
+                },
+                {
+                    "sofa": 12,
+                    "begin": 616,
+                    "end": 623
+                },
+                {
+                    "sofa": 12,
+                    "begin": 624,
+                    "end": 628
+                },
+                {
+                    "sofa": 12,
+                    "begin": 629,
+                    "end": 636
+                },
+                {
+                    "sofa": 12,
+                    "begin": 636,
+                    "end": 637
+                },
+                {
+                    "sofa": 12,
+                    "begin": 638,
+                    "end": 642
+                },
+                {
+                    "sofa": 12,
+                    "begin": 642,
+                    "end": 643
+                },
+                {
+                    "sofa": 12,
+                    "begin": 643,
+                    "end": 644
+                },
+                {
+                    "sofa": 12,
+                    "begin": 645,
+                    "end": 649
+                },
+                {
+                    "sofa": 12,
+                    "begin": 650,
+                    "end": 657
+                },
+                {
+                    "sofa": 12,
+                    "begin": 658,
+                    "end": 659
+                },
+                {
+                    "sofa": 12,
+                    "begin": 659,
+                    "end": 660
+                },
+                {
+                    "sofa": 12,
+                    "begin": 660,
+                    "end": 661
+                },
+                {
+                    "sofa": 12,
+                    "begin": 661,
+                    "end": 666
+                },
+                {
+                    "sofa": 12,
+                    "begin": 667,
+                    "end": 675
+                },
+                {
+                    "sofa": 12,
+                    "begin": 676,
+                    "end": 677
+                },
+                {
+                    "sofa": 12,
+                    "begin": 677,
+                    "end": 678
+                },
+                {
+                    "sofa": 12,
+                    "begin": 678,
+                    "end": 679
+                },
+                {
+                    "sofa": 12,
+                    "begin": 681,
+                    "end": 686
+                },
+                {
+                    "sofa": 12,
+                    "begin": 687,
+                    "end": 690
+                },
+                {
+                    "sofa": 12,
+                    "begin": 691,
+                    "end": 696
+                },
+                {
+                    "sofa": 12,
+                    "begin": 696,
+                    "end": 697
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 566,
+                    "end": 569,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 566,
+                    "end": 569,
+                    "DistinctiveLinguisticFeatures": "ellipses, exaggerated/excessive usage of punctuation marks"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 586,
+                    "end": 696,
+                    "DistinctiveLinguisticFeatures": "uppercase words"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 587,
+                    "end": 696,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 587,
+                    "end": 637,
+                    "PoliticizingHealthIssues": "political figures or political argument"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 587,
+                    "end": 637,
+                    "PoliticizingHealthIssues": "politicizing health issues"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 658,
+                    "end": 679,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 681,
+                    "end": 696,
+                    "EstablishingLegitimacy": "call to action"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 681,
+                    "end": 696,
+                    "EstablishingLegitimacy": "establishing legitimacy"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufeffabbc-00023 Despite its wishful thinking, the Turnbull Government's May 2 announcement of \"new record growing funding for Australian schools\" has not brought \"the school funding wars to an end\".\r\nSource: https://www.facebook.com/tanya.plibersek/photos/pb.166020776792056.-2207520000.1493819614./1426210457439742/?type=3&theater \r\nFact checking: https://www.abc.net.au/news/2017-06-05/fact-check-has-the-government-cut-22bn-from-schools/8526768?nw=0&r=HtmlFragment \r\nActual content: \r\nFB Post - \r\nTanya Plibersek\r\nMay 2, 2017  \u00b7 \r\nMalcolm Turnbull says this is \"fair\"...\r\nImage Caption: [THE LIBERALS ARE CUTTING $22 BILLION FROM SCHOOLS. THAT\u2019S LIKE SACKING <b>22,00 TEACHERS <b>\r\nSHARE THE FACTS]\r\n"
+        }
+    }
+}

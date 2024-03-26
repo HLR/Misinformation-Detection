@@ -1,0 +1,591 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 442,
+                    "language": "x-unspecified",
+                    "documentTitle": "53.%20snes-04526%20The%20bitter%20almond%20tree%20was%20banned%20in%20America%20in%201995%20because%20it%20treats%20and%20prevents%20cancer.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/2050/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/2050/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/2050/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 103
+                },
+                {
+                    "sofa": 12,
+                    "begin": 106,
+                    "end": 411
+                },
+                {
+                    "sofa": 12,
+                    "begin": 412,
+                    "end": 440
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 15
+                },
+                {
+                    "sofa": 12,
+                    "begin": 16,
+                    "end": 22
+                },
+                {
+                    "sofa": 12,
+                    "begin": 23,
+                    "end": 29
+                },
+                {
+                    "sofa": 12,
+                    "begin": 30,
+                    "end": 34
+                },
+                {
+                    "sofa": 12,
+                    "begin": 35,
+                    "end": 38
+                },
+                {
+                    "sofa": 12,
+                    "begin": 39,
+                    "end": 45
+                },
+                {
+                    "sofa": 12,
+                    "begin": 46,
+                    "end": 48
+                },
+                {
+                    "sofa": 12,
+                    "begin": 49,
+                    "end": 56
+                },
+                {
+                    "sofa": 12,
+                    "begin": 57,
+                    "end": 59
+                },
+                {
+                    "sofa": 12,
+                    "begin": 60,
+                    "end": 64
+                },
+                {
+                    "sofa": 12,
+                    "begin": 65,
+                    "end": 72
+                },
+                {
+                    "sofa": 12,
+                    "begin": 73,
+                    "end": 75
+                },
+                {
+                    "sofa": 12,
+                    "begin": 76,
+                    "end": 82
+                },
+                {
+                    "sofa": 12,
+                    "begin": 83,
+                    "end": 86
+                },
+                {
+                    "sofa": 12,
+                    "begin": 87,
+                    "end": 95
+                },
+                {
+                    "sofa": 12,
+                    "begin": 96,
+                    "end": 102
+                },
+                {
+                    "sofa": 12,
+                    "begin": 102,
+                    "end": 103
+                },
+                {
+                    "sofa": 12,
+                    "begin": 106,
+                    "end": 112
+                },
+                {
+                    "sofa": 12,
+                    "begin": 112,
+                    "end": 113
+                },
+                {
+                    "sofa": 12,
+                    "begin": 114,
+                    "end": 119
+                },
+                {
+                    "sofa": 12,
+                    "begin": 119,
+                    "end": 120
+                },
+                {
+                    "sofa": 12,
+                    "begin": 120,
+                    "end": 121
+                },
+                {
+                    "sofa": 12,
+                    "begin": 121,
+                    "end": 122
+                },
+                {
+                    "sofa": 12,
+                    "begin": 122,
+                    "end": 136
+                },
+                {
+                    "sofa": 12,
+                    "begin": 136,
+                    "end": 137
+                },
+                {
+                    "sofa": 12,
+                    "begin": 137,
+                    "end": 147
+                },
+                {
+                    "sofa": 12,
+                    "begin": 147,
+                    "end": 148
+                },
+                {
+                    "sofa": 12,
+                    "begin": 148,
+                    "end": 173
+                },
+                {
+                    "sofa": 12,
+                    "begin": 173,
+                    "end": 174
+                },
+                {
+                    "sofa": 12,
+                    "begin": 177,
+                    "end": 181
+                },
+                {
+                    "sofa": 12,
+                    "begin": 182,
+                    "end": 190
+                },
+                {
+                    "sofa": 12,
+                    "begin": 190,
+                    "end": 191
+                },
+                {
+                    "sofa": 12,
+                    "begin": 192,
+                    "end": 197
+                },
+                {
+                    "sofa": 12,
+                    "begin": 197,
+                    "end": 198
+                },
+                {
+                    "sofa": 12,
+                    "begin": 198,
+                    "end": 199
+                },
+                {
+                    "sofa": 12,
+                    "begin": 199,
+                    "end": 200
+                },
+                {
+                    "sofa": 12,
+                    "begin": 200,
+                    "end": 214
+                },
+                {
+                    "sofa": 12,
+                    "begin": 214,
+                    "end": 215
+                },
+                {
+                    "sofa": 12,
+                    "begin": 215,
+                    "end": 225
+                },
+                {
+                    "sofa": 12,
+                    "begin": 225,
+                    "end": 226
+                },
+                {
+                    "sofa": 12,
+                    "begin": 226,
+                    "end": 251
+                },
+                {
+                    "sofa": 12,
+                    "begin": 251,
+                    "end": 252
+                },
+                {
+                    "sofa": 12,
+                    "begin": 255,
+                    "end": 261
+                },
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 269
+                },
+                {
+                    "sofa": 12,
+                    "begin": 269,
+                    "end": 270
+                },
+                {
+                    "sofa": 12,
+                    "begin": 273,
+                    "end": 278
+                },
+                {
+                    "sofa": 12,
+                    "begin": 279,
+                    "end": 286
+                },
+                {
+                    "sofa": 12,
+                    "begin": 286,
+                    "end": 287
+                },
+                {
+                    "sofa": 12,
+                    "begin": 288,
+                    "end": 291
+                },
+                {
+                    "sofa": 12,
+                    "begin": 292,
+                    "end": 298
+                },
+                {
+                    "sofa": 12,
+                    "begin": 299,
+                    "end": 305
+                },
+                {
+                    "sofa": 12,
+                    "begin": 306,
+                    "end": 310
+                },
+                {
+                    "sofa": 12,
+                    "begin": 311,
+                    "end": 314
+                },
+                {
+                    "sofa": 12,
+                    "begin": 315,
+                    "end": 321
+                },
+                {
+                    "sofa": 12,
+                    "begin": 322,
+                    "end": 324
+                },
+                {
+                    "sofa": 12,
+                    "begin": 325,
+                    "end": 332
+                },
+                {
+                    "sofa": 12,
+                    "begin": 333,
+                    "end": 335
+                },
+                {
+                    "sofa": 12,
+                    "begin": 336,
+                    "end": 340
+                },
+                {
+                    "sofa": 12,
+                    "begin": 341,
+                    "end": 348
+                },
+                {
+                    "sofa": 12,
+                    "begin": 349,
+                    "end": 353
+                },
+                {
+                    "sofa": 12,
+                    "begin": 354,
+                    "end": 357
+                },
+                {
+                    "sofa": 12,
+                    "begin": 358,
+                    "end": 365
+                },
+                {
+                    "sofa": 12,
+                    "begin": 366,
+                    "end": 372
+                },
+                {
+                    "sofa": 12,
+                    "begin": 373,
+                    "end": 375
+                },
+                {
+                    "sofa": 12,
+                    "begin": 376,
+                    "end": 379
+                },
+                {
+                    "sofa": 12,
+                    "begin": 380,
+                    "end": 385
+                },
+                {
+                    "sofa": 12,
+                    "begin": 386,
+                    "end": 394
+                },
+                {
+                    "sofa": 12,
+                    "begin": 395,
+                    "end": 396
+                },
+                {
+                    "sofa": 12,
+                    "begin": 397,
+                    "end": 403
+                },
+                {
+                    "sofa": 12,
+                    "begin": 404,
+                    "end": 410
+                },
+                {
+                    "sofa": 12,
+                    "begin": 410,
+                    "end": 411
+                },
+                {
+                    "sofa": 12,
+                    "begin": 412,
+                    "end": 417
+                },
+                {
+                    "sofa": 12,
+                    "begin": 418,
+                    "end": 423
+                },
+                {
+                    "sofa": 12,
+                    "begin": 424,
+                    "end": 428
+                },
+                {
+                    "sofa": 12,
+                    "begin": 429,
+                    "end": 439
+                },
+                {
+                    "sofa": 12,
+                    "begin": 439,
+                    "end": 440
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 288,
+                    "end": 440,
+                    "DistinctiveLinguisticFeatures": "uppercase words"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 288,
+                    "end": 440,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 341,
+                    "end": 410,
+                    "BiasedReasoningtoMakeaConclusion": "lack of evidence or use unverified and incomplete evidence to make a claim"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 341,
+                    "end": 410,
+                    "BiasedReasoningtoMakeaConclusion": "biased reasoning to make a conclusion"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 412,
+                    "end": 440,
+                    "DistrustingGovernmentorPharmaceuticalCompanies": "distrusting government or corporations"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 412,
+                    "end": 440,
+                    "EstablishingLegitimacy": "establishing legitimacy"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 412,
+                    "end": 440,
+                    "EstablishingLegitimacy": "legitimate persuasive techniques: rhetorical question"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufeffsnes-04526 The bitter almond tree was banned in America in 1995 because it treats and prevents cancer. \r\nSource: https://www.snopes.com/fact-check/bitter-almond-tree-banned/ \r\nFact checking: https://www.snopes.com/fact-check/bitter-almond-tree-banned/ \r\nActual content: \r\nImage caption: THE BITTER ALMOND TREE WAS BANNED IN AMERICA IN 1995 BECAUSE IT'S THE HIGHEST SOURCE OF B17 WHICH PREVENTS & TREATS CANCER. STILL TRUST YOUR GOVERNMENT?\r\n"
+        }
+    }
+}

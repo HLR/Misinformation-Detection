@@ -1,0 +1,2533 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 2306,
+                    "language": "x-unspecified",
+                    "documentTitle": "227.%20snes-01222%20Drinking%20untreated%20spring%20water%20marketed%20as%20raw%20water.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1996/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1996/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1996/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 124
+                },
+                {
+                    "sofa": 12,
+                    "begin": 126,
+                    "end": 488
+                },
+                {
+                    "sofa": 12,
+                    "begin": 489,
+                    "end": 595
+                },
+                {
+                    "sofa": 12,
+                    "begin": 596,
+                    "end": 637
+                },
+                {
+                    "sofa": 12,
+                    "begin": 639,
+                    "end": 783
+                },
+                {
+                    "sofa": 12,
+                    "begin": 784,
+                    "end": 873
+                },
+                {
+                    "sofa": 12,
+                    "begin": 873,
+                    "end": 965
+                },
+                {
+                    "sofa": 12,
+                    "begin": 966,
+                    "end": 1026
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1027,
+                    "end": 1154
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1155,
+                    "end": 1257
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1258,
+                    "end": 1372
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1373,
+                    "end": 1451
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1453,
+                    "end": 1520
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1521,
+                    "end": 1620
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1621,
+                    "end": 1680
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1681,
+                    "end": 1771
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1772,
+                    "end": 1858
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1859,
+                    "end": 1950
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1951,
+                    "end": 2062
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2064,
+                    "end": 2141
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2143,
+                    "end": 2302
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 20
+                },
+                {
+                    "sofa": 12,
+                    "begin": 21,
+                    "end": 30
+                },
+                {
+                    "sofa": 12,
+                    "begin": 31,
+                    "end": 37
+                },
+                {
+                    "sofa": 12,
+                    "begin": 38,
+                    "end": 43
+                },
+                {
+                    "sofa": 12,
+                    "begin": 43,
+                    "end": 44
+                },
+                {
+                    "sofa": 12,
+                    "begin": 45,
+                    "end": 53
+                },
+                {
+                    "sofa": 12,
+                    "begin": 54,
+                    "end": 56
+                },
+                {
+                    "sofa": 12,
+                    "begin": 57,
+                    "end": 58
+                },
+                {
+                    "sofa": 12,
+                    "begin": 58,
+                    "end": 61
+                },
+                {
+                    "sofa": 12,
+                    "begin": 62,
+                    "end": 67
+                },
+                {
+                    "sofa": 12,
+                    "begin": 67,
+                    "end": 68
+                },
+                {
+                    "sofa": 12,
+                    "begin": 68,
+                    "end": 69
+                },
+                {
+                    "sofa": 12,
+                    "begin": 70,
+                    "end": 78
+                },
+                {
+                    "sofa": 12,
+                    "begin": 79,
+                    "end": 85
+                },
+                {
+                    "sofa": 12,
+                    "begin": 86,
+                    "end": 94
+                },
+                {
+                    "sofa": 12,
+                    "begin": 95,
+                    "end": 102
+                },
+                {
+                    "sofa": 12,
+                    "begin": 103,
+                    "end": 107
+                },
+                {
+                    "sofa": 12,
+                    "begin": 108,
+                    "end": 111
+                },
+                {
+                    "sofa": 12,
+                    "begin": 112,
+                    "end": 113
+                },
+                {
+                    "sofa": 12,
+                    "begin": 113,
+                    "end": 122
+                },
+                {
+                    "sofa": 12,
+                    "begin": 122,
+                    "end": 123
+                },
+                {
+                    "sofa": 12,
+                    "begin": 123,
+                    "end": 124
+                },
+                {
+                    "sofa": 12,
+                    "begin": 126,
+                    "end": 132
+                },
+                {
+                    "sofa": 12,
+                    "begin": 132,
+                    "end": 133
+                },
+                {
+                    "sofa": 12,
+                    "begin": 134,
+                    "end": 139
+                },
+                {
+                    "sofa": 12,
+                    "begin": 139,
+                    "end": 140
+                },
+                {
+                    "sofa": 12,
+                    "begin": 140,
+                    "end": 141
+                },
+                {
+                    "sofa": 12,
+                    "begin": 141,
+                    "end": 142
+                },
+                {
+                    "sofa": 12,
+                    "begin": 142,
+                    "end": 152
+                },
+                {
+                    "sofa": 12,
+                    "begin": 152,
+                    "end": 153
+                },
+                {
+                    "sofa": 12,
+                    "begin": 153,
+                    "end": 158
+                },
+                {
+                    "sofa": 12,
+                    "begin": 158,
+                    "end": 159
+                },
+                {
+                    "sofa": 12,
+                    "begin": 159,
+                    "end": 168
+                },
+                {
+                    "sofa": 12,
+                    "begin": 168,
+                    "end": 169
+                },
+                {
+                    "sofa": 12,
+                    "begin": 169,
+                    "end": 174
+                },
+                {
+                    "sofa": 12,
+                    "begin": 174,
+                    "end": 175
+                },
+                {
+                    "sofa": 12,
+                    "begin": 175,
+                    "end": 182
+                },
+                {
+                    "sofa": 12,
+                    "begin": 185,
+                    "end": 189
+                },
+                {
+                    "sofa": 12,
+                    "begin": 190,
+                    "end": 198
+                },
+                {
+                    "sofa": 12,
+                    "begin": 198,
+                    "end": 199
+                },
+                {
+                    "sofa": 12,
+                    "begin": 200,
+                    "end": 205
+                },
+                {
+                    "sofa": 12,
+                    "begin": 205,
+                    "end": 206
+                },
+                {
+                    "sofa": 12,
+                    "begin": 206,
+                    "end": 207
+                },
+                {
+                    "sofa": 12,
+                    "begin": 207,
+                    "end": 208
+                },
+                {
+                    "sofa": 12,
+                    "begin": 208,
+                    "end": 222
+                },
+                {
+                    "sofa": 12,
+                    "begin": 222,
+                    "end": 223
+                },
+                {
+                    "sofa": 12,
+                    "begin": 223,
+                    "end": 233
+                },
+                {
+                    "sofa": 12,
+                    "begin": 233,
+                    "end": 234
+                },
+                {
+                    "sofa": 12,
+                    "begin": 234,
+                    "end": 277
+                },
+                {
+                    "sofa": 12,
+                    "begin": 277,
+                    "end": 278
+                },
+                {
+                    "sofa": 12,
+                    "begin": 281,
+                    "end": 287
+                },
+                {
+                    "sofa": 12,
+                    "begin": 288,
+                    "end": 295
+                },
+                {
+                    "sofa": 12,
+                    "begin": 295,
+                    "end": 296
+                },
+                {
+                    "sofa": 12,
+                    "begin": 299,
+                    "end": 303
+                },
+                {
+                    "sofa": 12,
+                    "begin": 304,
+                    "end": 309
+                },
+                {
+                    "sofa": 12,
+                    "begin": 310,
+                    "end": 318
+                },
+                {
+                    "sofa": 12,
+                    "begin": 319,
+                    "end": 329
+                },
+                {
+                    "sofa": 12,
+                    "begin": 330,
+                    "end": 338
+                },
+                {
+                    "sofa": 12,
+                    "begin": 339,
+                    "end": 341
+                },
+                {
+                    "sofa": 12,
+                    "begin": 342,
+                    "end": 350
+                },
+                {
+                    "sofa": 12,
+                    "begin": 351,
+                    "end": 359
+                },
+                {
+                    "sofa": 12,
+                    "begin": 360,
+                    "end": 366
+                },
+                {
+                    "sofa": 12,
+                    "begin": 367,
+                    "end": 372
+                },
+                {
+                    "sofa": 12,
+                    "begin": 373,
+                    "end": 374
+                },
+                {
+                    "sofa": 12,
+                    "begin": 375,
+                    "end": 380
+                },
+                {
+                    "sofa": 12,
+                    "begin": 381,
+                    "end": 383
+                },
+                {
+                    "sofa": 12,
+                    "begin": 384,
+                    "end": 390
+                },
+                {
+                    "sofa": 12,
+                    "begin": 391,
+                    "end": 393
+                },
+                {
+                    "sofa": 12,
+                    "begin": 394,
+                    "end": 407
+                },
+                {
+                    "sofa": 12,
+                    "begin": 409,
+                    "end": 412
+                },
+                {
+                    "sofa": 12,
+                    "begin": 413,
+                    "end": 418
+                },
+                {
+                    "sofa": 12,
+                    "begin": 419,
+                    "end": 429
+                },
+                {
+                    "sofa": 12,
+                    "begin": 430,
+                    "end": 436
+                },
+                {
+                    "sofa": 12,
+                    "begin": 437,
+                    "end": 440
+                },
+                {
+                    "sofa": 12,
+                    "begin": 441,
+                    "end": 447
+                },
+                {
+                    "sofa": 12,
+                    "begin": 448,
+                    "end": 457
+                },
+                {
+                    "sofa": 12,
+                    "begin": 458,
+                    "end": 460
+                },
+                {
+                    "sofa": 12,
+                    "begin": 461,
+                    "end": 464
+                },
+                {
+                    "sofa": 12,
+                    "begin": 465,
+                    "end": 471
+                },
+                {
+                    "sofa": 12,
+                    "begin": 472,
+                    "end": 474
+                },
+                {
+                    "sofa": 12,
+                    "begin": 475,
+                    "end": 481
+                },
+                {
+                    "sofa": 12,
+                    "begin": 482,
+                    "end": 487
+                },
+                {
+                    "sofa": 12,
+                    "begin": 487,
+                    "end": 488
+                },
+                {
+                    "sofa": 12,
+                    "begin": 489,
+                    "end": 491
+                },
+                {
+                    "sofa": 12,
+                    "begin": 492,
+                    "end": 501
+                },
+                {
+                    "sofa": 12,
+                    "begin": 502,
+                    "end": 506
+                },
+                {
+                    "sofa": 12,
+                    "begin": 507,
+                    "end": 514
+                },
+                {
+                    "sofa": 12,
+                    "begin": 515,
+                    "end": 519
+                },
+                {
+                    "sofa": 12,
+                    "begin": 520,
+                    "end": 526
+                },
+                {
+                    "sofa": 12,
+                    "begin": 527,
+                    "end": 531
+                },
+                {
+                    "sofa": 12,
+                    "begin": 532,
+                    "end": 540
+                },
+                {
+                    "sofa": 12,
+                    "begin": 541,
+                    "end": 551
+                },
+                {
+                    "sofa": 12,
+                    "begin": 552,
+                    "end": 556
+                },
+                {
+                    "sofa": 12,
+                    "begin": 556,
+                    "end": 557
+                },
+                {
+                    "sofa": 12,
+                    "begin": 558,
+                    "end": 563
+                },
+                {
+                    "sofa": 12,
+                    "begin": 564,
+                    "end": 567
+                },
+                {
+                    "sofa": 12,
+                    "begin": 568,
+                    "end": 577
+                },
+                {
+                    "sofa": 12,
+                    "begin": 578,
+                    "end": 580
+                },
+                {
+                    "sofa": 12,
+                    "begin": 581,
+                    "end": 584
+                },
+                {
+                    "sofa": 12,
+                    "begin": 585,
+                    "end": 594
+                },
+                {
+                    "sofa": 12,
+                    "begin": 594,
+                    "end": 595
+                },
+                {
+                    "sofa": 12,
+                    "begin": 596,
+                    "end": 598
+                },
+                {
+                    "sofa": 12,
+                    "begin": 599,
+                    "end": 604
+                },
+                {
+                    "sofa": 12,
+                    "begin": 605,
+                    "end": 609
+                },
+                {
+                    "sofa": 12,
+                    "begin": 610,
+                    "end": 617
+                },
+                {
+                    "sofa": 12,
+                    "begin": 618,
+                    "end": 622
+                },
+                {
+                    "sofa": 12,
+                    "begin": 623,
+                    "end": 626
+                },
+                {
+                    "sofa": 12,
+                    "begin": 627,
+                    "end": 630
+                },
+                {
+                    "sofa": 12,
+                    "begin": 631,
+                    "end": 633
+                },
+                {
+                    "sofa": 12,
+                    "begin": 634,
+                    "end": 636
+                },
+                {
+                    "sofa": 12,
+                    "begin": 636,
+                    "end": 637
+                },
+                {
+                    "sofa": 12,
+                    "begin": 639,
+                    "end": 640
+                },
+                {
+                    "sofa": 12,
+                    "begin": 640,
+                    "end": 641
+                },
+                {
+                    "sofa": 12,
+                    "begin": 641,
+                    "end": 642
+                },
+                {
+                    "sofa": 12,
+                    "begin": 644,
+                    "end": 652
+                },
+                {
+                    "sofa": 12,
+                    "begin": 653,
+                    "end": 656
+                },
+                {
+                    "sofa": 12,
+                    "begin": 657,
+                    "end": 661
+                },
+                {
+                    "sofa": 12,
+                    "begin": 662,
+                    "end": 663
+                },
+                {
+                    "sofa": 12,
+                    "begin": 663,
+                    "end": 664
+                },
+                {
+                    "sofa": 12,
+                    "begin": 664,
+                    "end": 665
+                },
+                {
+                    "sofa": 12,
+                    "begin": 666,
+                    "end": 667
+                },
+                {
+                    "sofa": 12,
+                    "begin": 668,
+                    "end": 671
+                },
+                {
+                    "sofa": 12,
+                    "begin": 672,
+                    "end": 677
+                },
+                {
+                    "sofa": 12,
+                    "begin": 678,
+                    "end": 686
+                },
+                {
+                    "sofa": 12,
+                    "begin": 687,
+                    "end": 690
+                },
+                {
+                    "sofa": 12,
+                    "begin": 691,
+                    "end": 695
+                },
+                {
+                    "sofa": 12,
+                    "begin": 696,
+                    "end": 703
+                },
+                {
+                    "sofa": 12,
+                    "begin": 704,
+                    "end": 710
+                },
+                {
+                    "sofa": 12,
+                    "begin": 711,
+                    "end": 717
+                },
+                {
+                    "sofa": 12,
+                    "begin": 718,
+                    "end": 721
+                },
+                {
+                    "sofa": 12,
+                    "begin": 722,
+                    "end": 732
+                },
+                {
+                    "sofa": 12,
+                    "begin": 733,
+                    "end": 737
+                },
+                {
+                    "sofa": 12,
+                    "begin": 738,
+                    "end": 740
+                },
+                {
+                    "sofa": 12,
+                    "begin": 741,
+                    "end": 746
+                },
+                {
+                    "sofa": 12,
+                    "begin": 746,
+                    "end": 747
+                },
+                {
+                    "sofa": 12,
+                    "begin": 748,
+                    "end": 753
+                },
+                {
+                    "sofa": 12,
+                    "begin": 754,
+                    "end": 757
+                },
+                {
+                    "sofa": 12,
+                    "begin": 757,
+                    "end": 758
+                },
+                {
+                    "sofa": 12,
+                    "begin": 759,
+                    "end": 762
+                },
+                {
+                    "sofa": 12,
+                    "begin": 763,
+                    "end": 764
+                },
+                {
+                    "sofa": 12,
+                    "begin": 765,
+                    "end": 768
+                },
+                {
+                    "sofa": 12,
+                    "begin": 769,
+                    "end": 775
+                },
+                {
+                    "sofa": 12,
+                    "begin": 776,
+                    "end": 782
+                },
+                {
+                    "sofa": 12,
+                    "begin": 782,
+                    "end": 783
+                },
+                {
+                    "sofa": 12,
+                    "begin": 784,
+                    "end": 788
+                },
+                {
+                    "sofa": 12,
+                    "begin": 789,
+                    "end": 791
+                },
+                {
+                    "sofa": 12,
+                    "begin": 792,
+                    "end": 799
+                },
+                {
+                    "sofa": 12,
+                    "begin": 800,
+                    "end": 802
+                },
+                {
+                    "sofa": 12,
+                    "begin": 803,
+                    "end": 806
+                },
+                {
+                    "sofa": 12,
+                    "begin": 807,
+                    "end": 811
+                },
+                {
+                    "sofa": 12,
+                    "begin": 812,
+                    "end": 817
+                },
+                {
+                    "sofa": 12,
+                    "begin": 818,
+                    "end": 821
+                },
+                {
+                    "sofa": 12,
+                    "begin": 822,
+                    "end": 827
+                },
+                {
+                    "sofa": 12,
+                    "begin": 828,
+                    "end": 836
+                },
+                {
+                    "sofa": 12,
+                    "begin": 837,
+                    "end": 840
+                },
+                {
+                    "sofa": 12,
+                    "begin": 841,
+                    "end": 852
+                },
+                {
+                    "sofa": 12,
+                    "begin": 853,
+                    "end": 856
+                },
+                {
+                    "sofa": 12,
+                    "begin": 857,
+                    "end": 862
+                },
+                {
+                    "sofa": 12,
+                    "begin": 863,
+                    "end": 872
+                },
+                {
+                    "sofa": 12,
+                    "begin": 872,
+                    "end": 873
+                },
+                {
+                    "sofa": 12,
+                    "begin": 873,
+                    "end": 874
+                },
+                {
+                    "sofa": 12,
+                    "begin": 874,
+                    "end": 875
+                },
+                {
+                    "sofa": 12,
+                    "begin": 875,
+                    "end": 876
+                },
+                {
+                    "sofa": 12,
+                    "begin": 877,
+                    "end": 890
+                },
+                {
+                    "sofa": 12,
+                    "begin": 891,
+                    "end": 895
+                },
+                {
+                    "sofa": 12,
+                    "begin": 896,
+                    "end": 909
+                },
+                {
+                    "sofa": 12,
+                    "begin": 910,
+                    "end": 918
+                },
+                {
+                    "sofa": 12,
+                    "begin": 919,
+                    "end": 929
+                },
+                {
+                    "sofa": 12,
+                    "begin": 930,
+                    "end": 937
+                },
+                {
+                    "sofa": 12,
+                    "begin": 938,
+                    "end": 940
+                },
+                {
+                    "sofa": 12,
+                    "begin": 941,
+                    "end": 949
+                },
+                {
+                    "sofa": 12,
+                    "begin": 950,
+                    "end": 953
+                },
+                {
+                    "sofa": 12,
+                    "begin": 954,
+                    "end": 964
+                },
+                {
+                    "sofa": 12,
+                    "begin": 964,
+                    "end": 965
+                },
+                {
+                    "sofa": 12,
+                    "begin": 966,
+                    "end": 967
+                },
+                {
+                    "sofa": 12,
+                    "begin": 967,
+                    "end": 968
+                },
+                {
+                    "sofa": 12,
+                    "begin": 968,
+                    "end": 969
+                },
+                {
+                    "sofa": 12,
+                    "begin": 971,
+                    "end": 972
+                },
+                {
+                    "sofa": 12,
+                    "begin": 972,
+                    "end": 973
+                },
+                {
+                    "sofa": 12,
+                    "begin": 973,
+                    "end": 974
+                },
+                {
+                    "sofa": 12,
+                    "begin": 975,
+                    "end": 983
+                },
+                {
+                    "sofa": 12,
+                    "begin": 984,
+                    "end": 993
+                },
+                {
+                    "sofa": 12,
+                    "begin": 994,
+                    "end": 999
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1000,
+                    "end": 1005
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1006,
+                    "end": 1008
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1009,
+                    "end": 1012
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1013,
+                    "end": 1017
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1018,
+                    "end": 1020
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1021,
+                    "end": 1025
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1025,
+                    "end": 1026
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1027,
+                    "end": 1028
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1028,
+                    "end": 1029
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1029,
+                    "end": 1030
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1031,
+                    "end": 1036
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1037,
+                    "end": 1040
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1041,
+                    "end": 1045
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1046,
+                    "end": 1051
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1052,
+                    "end": 1059
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1060,
+                    "end": 1062
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1063,
+                    "end": 1066
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1067,
+                    "end": 1074
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1075,
+                    "end": 1079
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1080,
+                    "end": 1082
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1083,
+                    "end": 1086
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1087,
+                    "end": 1093
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1094,
+                    "end": 1097
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1098,
+                    "end": 1105
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1106,
+                    "end": 1107
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1108,
+                    "end": 1116
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1117,
+                    "end": 1123
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1124,
+                    "end": 1131
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1132,
+                    "end": 1136
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1137,
+                    "end": 1140
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1141,
+                    "end": 1144
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1145,
+                    "end": 1153
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1153,
+                    "end": 1154
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1155,
+                    "end": 1158
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1159,
+                    "end": 1164
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1165,
+                    "end": 1170
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1171,
+                    "end": 1173
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1174,
+                    "end": 1177
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1178,
+                    "end": 1181
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1182,
+                    "end": 1190
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1191,
+                    "end": 1196
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1197,
+                    "end": 1200
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1201,
+                    "end": 1203
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1204,
+                    "end": 1207
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1208,
+                    "end": 1217
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1218,
+                    "end": 1221
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1222,
+                    "end": 1225
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1226,
+                    "end": 1228
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1229,
+                    "end": 1232
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1233,
+                    "end": 1241
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1242,
+                    "end": 1244
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1245,
+                    "end": 1248
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1250,
+                    "end": 1256
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1256,
+                    "end": 1257
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1258,
+                    "end": 1259
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1259,
+                    "end": 1260
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1260,
+                    "end": 1261
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1262,
+                    "end": 1269
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1269,
+                    "end": 1270
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1271,
+                    "end": 1277
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1278,
+                    "end": 1282
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1282,
+                    "end": 1283
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1284,
+                    "end": 1291
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1291,
+                    "end": 1292
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1293,
+                    "end": 1296
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1297,
+                    "end": 1306
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1307,
+                    "end": 1312
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1313,
+                    "end": 1321
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1322,
+                    "end": 1325
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1326,
+                    "end": 1332
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1333,
+                    "end": 1335
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1336,
+                    "end": 1338
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1339,
+                    "end": 1348
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1349,
+                    "end": 1351
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1352,
+                    "end": 1358
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1359,
+                    "end": 1362
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1363,
+                    "end": 1371
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1371,
+                    "end": 1372
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1373,
+                    "end": 1374
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1374,
+                    "end": 1375
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1375,
+                    "end": 1376
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1377,
+                    "end": 1383
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1384,
+                    "end": 1390
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1391,
+                    "end": 1396
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1397,
+                    "end": 1399
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1400,
+                    "end": 1403
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1404,
+                    "end": 1407
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1408,
+                    "end": 1410
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1411,
+                    "end": 1420
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1421,
+                    "end": 1422
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1423,
+                    "end": 1430
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1431,
+                    "end": 1442
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1443,
+                    "end": 1450
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1450,
+                    "end": 1451
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1453,
+                    "end": 1456
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1457,
+                    "end": 1467
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1468,
+                    "end": 1474
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1475,
+                    "end": 1479
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1480,
+                    "end": 1483
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1484,
+                    "end": 1493
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1494,
+                    "end": 1496
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1497,
+                    "end": 1500
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1501,
+                    "end": 1513
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1514,
+                    "end": 1519
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1519,
+                    "end": 1520
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1521,
+                    "end": 1526
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1527,
+                    "end": 1532
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1533,
+                    "end": 1535
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1536,
+                    "end": 1545
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1546,
+                    "end": 1551
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1552,
+                    "end": 1562
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1563,
+                    "end": 1571
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1572,
+                    "end": 1579
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1579,
+                    "end": 1580
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1581,
+                    "end": 1591
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1592,
+                    "end": 1596
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1597,
+                    "end": 1604
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1605,
+                    "end": 1615
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1616,
+                    "end": 1619
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1619,
+                    "end": 1620
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1621,
+                    "end": 1625
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1626,
+                    "end": 1629
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1630,
+                    "end": 1640
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1641,
+                    "end": 1644
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1645,
+                    "end": 1652
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1653,
+                    "end": 1661
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1662,
+                    "end": 1665
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1666,
+                    "end": 1672
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1673,
+                    "end": 1679
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1679,
+                    "end": 1680
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1681,
+                    "end": 1688
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1689,
+                    "end": 1694
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1695,
+                    "end": 1705
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1706,
+                    "end": 1711
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1712,
+                    "end": 1715
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1716,
+                    "end": 1720
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1721,
+                    "end": 1723
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1724,
+                    "end": 1729
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1730,
+                    "end": 1740
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1741,
+                    "end": 1744
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1745,
+                    "end": 1748
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1749,
+                    "end": 1758
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1759,
+                    "end": 1761
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1762,
+                    "end": 1765
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1766,
+                    "end": 1770
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1770,
+                    "end": 1771
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1772,
+                    "end": 1782
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1783,
+                    "end": 1791
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1792,
+                    "end": 1795
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1796,
+                    "end": 1800
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1801,
+                    "end": 1802
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1802,
+                    "end": 1809
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1810,
+                    "end": 1812
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1813,
+                    "end": 1817
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1818,
+                    "end": 1827
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1828,
+                    "end": 1830
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1831,
+                    "end": 1840
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1841,
+                    "end": 1848
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1849,
+                    "end": 1857
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1857,
+                    "end": 1858
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1859,
+                    "end": 1860
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1860,
+                    "end": 1861
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1861,
+                    "end": 1862
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1863,
+                    "end": 1867
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1868,
+                    "end": 1870
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1871,
+                    "end": 1872
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1873,
+                    "end": 1882
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1883,
+                    "end": 1890
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1891,
+                    "end": 1897
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1898,
+                    "end": 1905
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1906,
+                    "end": 1909
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1910,
+                    "end": 1916
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1917,
+                    "end": 1922
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1923,
+                    "end": 1926
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1927,
+                    "end": 1931
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1932,
+                    "end": 1939
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1940,
+                    "end": 1949
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1949,
+                    "end": 1950
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1951,
+                    "end": 1952
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1952,
+                    "end": 1953
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1953,
+                    "end": 1954
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1956,
+                    "end": 1959
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1960,
+                    "end": 1964
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1965,
+                    "end": 1970
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1971,
+                    "end": 1978
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1979,
+                    "end": 1981
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1982,
+                    "end": 1990
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1991,
+                    "end": 1994
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1995,
+                    "end": 1999
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2000,
+                    "end": 2009
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2010,
+                    "end": 2018
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2019,
+                    "end": 2022
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2023,
+                    "end": 2033
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2034,
+                    "end": 2040
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2041,
+                    "end": 2044
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2045,
+                    "end": 2048
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2049,
+                    "end": 2054
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2055,
+                    "end": 2061
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2061,
+                    "end": 2062
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2064,
+                    "end": 2068
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2069,
+                    "end": 2070
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2071,
+                    "end": 2074
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2075,
+                    "end": 2078
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2079,
+                    "end": 2086
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2087,
+                    "end": 2091
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2091,
+                    "end": 2092
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2093,
+                    "end": 2098
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2099,
+                    "end": 2105
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2106,
+                    "end": 2111
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2112,
+                    "end": 2121
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2122,
+                    "end": 2124
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2125,
+                    "end": 2133
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2134,
+                    "end": 2139
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2140,
+                    "end": 2141
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2143,
+                    "end": 2145
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2146,
+                    "end": 2154
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2155,
+                    "end": 2159
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2160,
+                    "end": 2161
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2162,
+                    "end": 2166
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2167,
+                    "end": 2169
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2170,
+                    "end": 2174
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2175,
+                    "end": 2178
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2179,
+                    "end": 2183
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2184,
+                    "end": 2190
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2191,
+                    "end": 2200
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2201,
+                    "end": 2204
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2205,
+                    "end": 2208
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2209,
+                    "end": 2215
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2216,
+                    "end": 2220
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2221,
+                    "end": 2226
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2226,
+                    "end": 2227
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2228,
+                    "end": 2229
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2229,
+                    "end": 2230
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2230,
+                    "end": 2231
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2232,
+                    "end": 2236
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2237,
+                    "end": 2243
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2244,
+                    "end": 2246
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2247,
+                    "end": 2253
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2254,
+                    "end": 2260
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2261,
+                    "end": 2262
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2262,
+                    "end": 2263
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2263,
+                    "end": 2264
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2266,
+                    "end": 2271
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2272,
+                    "end": 2275
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2276,
+                    "end": 2281
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2282,
+                    "end": 2286
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2287,
+                    "end": 2290
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2291,
+                    "end": 2300
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2301,
+                    "end": 2302
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 409,
+                    "end": 488,
+                    "EstablishingLegitimacy": "establishing legitimacy"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 409,
+                    "end": 488,
+                    "EstablishingLegitimacy": "surface credibility markers - words associated with nature or healthiness"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 489,
+                    "end": 595,
+                    "EstablishingLegitimacy": "establishing legitimacy"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 489,
+                    "end": 595,
+                    "EstablishingLegitimacy": "surface credibility markers - words associated with nature or healthiness"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 639,
+                    "end": 665,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 639,
+                    "end": 665,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 873,
+                    "end": 1451,
+                    "BiasedReasoningtoMakeaConclusion": "lack of evidence or use unverified and incomplete evidence to make a claim"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 873,
+                    "end": 1451,
+                    "BiasedReasoningtoMakeaConclusion": "biased reasoning to make a conclusion"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 873,
+                    "end": 969,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 873,
+                    "end": 969,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 971,
+                    "end": 1030,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 971,
+                    "end": 1030,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1258,
+                    "end": 1376,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1258,
+                    "end": 1376,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1581,
+                    "end": 1620,
+                    "ExploitingSciencesLimitations": "exploiting science\u2019s limitations"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1859,
+                    "end": 1954,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 1859,
+                    "end": 1954,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2228,
+                    "end": 2264,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 2228,
+                    "end": 2264,
+                    "DistinctiveLinguisticFeatures": "bolded, underline or italicized"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufeffsnes-01222 Drinking untreated spring water, marketed as \"raw water,\" provides health benefits because they are \"probiotic.\"\r\nSource: https://archive.ph/vD32a#selection-903.0-1085.36 \r\nFact checking: https://www.snopes.com/fact-check/raw-water-provide-probiotic-health-benefits/ \r\nActual content: \r\nL\u012bve Water provides convenient delivery of pristine mountain spring water + tools to gather it independently\r\nThe earth constantly offers the purest substance on the planet as spring water. We celebrate this ancient life source that humanity flourished from, since the beginning of our existance. We trust it's perfect just the way it is.\r\n<b>  Shocking but true <b> - All other filtered and even bottled spring waters are sterilized with UV light, ozone gas, and a sub micron filter. This is similar to how most juice and dairy products are pasteurized for shelf stability.<b> Unfortunately this sterilization destroys beneficial sources of minerals and probiotics. <b>\r\n<b> Microbes outnumber human cells in the body 10 fold. <b> There are more nerve endings in our bellies than in our brains and there's a constant battle between good and bad bacteria. The micro biome of our gut produces about 95% of the serotonin and 50% of the dopamine in our  brains. <b> Anxiety, weight gain, fatigue, and countless other ailments are linked to an imbalance of proper gut bacteria. <b> Living spring water is the key to unlocking a perfect micro-biome balance.\r\nThe probiotics listed here are exclusive to our unsterilized water. There could be countless other benificial microbes present, scientists just haven't discovered yet. They are imperative for optimal physical and mental health. Without these probiotics we're not able to fully assimilate all the nutrients in our food. Beneficial bacteria are also \u200bproven\u200b to have abilities to transform harmful bacteria. <b> Here is a published medical report proving raw spring water has vast healing abilities. <b>\r\nThe L\u012bve Water Revival is starting and it's upgrading personal and ecological health for the whole planet.  It's a new yet ancient idea~ Fresh Spring Water delivered in reusable glass .\r\nWe searched over a year to find the best source available for the entire West Coast- <v> Opal Spring In Madras Oregon <b>\r\nWatch our story from the beginning \u21b4\r\n\r\n"
+        }
+    }
+}

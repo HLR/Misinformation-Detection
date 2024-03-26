@@ -1,0 +1,506 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 366,
+                    "language": "x-unspecified",
+                    "documentTitle": "188.%20snes-00372%20A%20person%20can%20survive%20living%20on%20a%20diet%20of%20nothing%20but%20potatoes%20and%20butter.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1952/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1952/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1952/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 363
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 13
+                },
+                {
+                    "sofa": 12,
+                    "begin": 14,
+                    "end": 20
+                },
+                {
+                    "sofa": 12,
+                    "begin": 21,
+                    "end": 24
+                },
+                {
+                    "sofa": 12,
+                    "begin": 25,
+                    "end": 26
+                },
+                {
+                    "sofa": 12,
+                    "begin": 26,
+                    "end": 33
+                },
+                {
+                    "sofa": 12,
+                    "begin": 33,
+                    "end": 34
+                },
+                {
+                    "sofa": 12,
+                    "begin": 35,
+                    "end": 41
+                },
+                {
+                    "sofa": 12,
+                    "begin": 42,
+                    "end": 44
+                },
+                {
+                    "sofa": 12,
+                    "begin": 45,
+                    "end": 46
+                },
+                {
+                    "sofa": 12,
+                    "begin": 47,
+                    "end": 51
+                },
+                {
+                    "sofa": 12,
+                    "begin": 52,
+                    "end": 54
+                },
+                {
+                    "sofa": 12,
+                    "begin": 55,
+                    "end": 62
+                },
+                {
+                    "sofa": 12,
+                    "begin": 63,
+                    "end": 66
+                },
+                {
+                    "sofa": 12,
+                    "begin": 67,
+                    "end": 75
+                },
+                {
+                    "sofa": 12,
+                    "begin": 76,
+                    "end": 79
+                },
+                {
+                    "sofa": 12,
+                    "begin": 80,
+                    "end": 86
+                },
+                {
+                    "sofa": 12,
+                    "begin": 88,
+                    "end": 94
+                },
+                {
+                    "sofa": 12,
+                    "begin": 94,
+                    "end": 95
+                },
+                {
+                    "sofa": 12,
+                    "begin": 96,
+                    "end": 101
+                },
+                {
+                    "sofa": 12,
+                    "begin": 101,
+                    "end": 102
+                },
+                {
+                    "sofa": 12,
+                    "begin": 102,
+                    "end": 103
+                },
+                {
+                    "sofa": 12,
+                    "begin": 103,
+                    "end": 104
+                },
+                {
+                    "sofa": 12,
+                    "begin": 104,
+                    "end": 118
+                },
+                {
+                    "sofa": 12,
+                    "begin": 118,
+                    "end": 119
+                },
+                {
+                    "sofa": 12,
+                    "begin": 119,
+                    "end": 129
+                },
+                {
+                    "sofa": 12,
+                    "begin": 129,
+                    "end": 130
+                },
+                {
+                    "sofa": 12,
+                    "begin": 130,
+                    "end": 148
+                },
+                {
+                    "sofa": 12,
+                    "begin": 148,
+                    "end": 149
+                },
+                {
+                    "sofa": 12,
+                    "begin": 152,
+                    "end": 156
+                },
+                {
+                    "sofa": 12,
+                    "begin": 157,
+                    "end": 165
+                },
+                {
+                    "sofa": 12,
+                    "begin": 165,
+                    "end": 166
+                },
+                {
+                    "sofa": 12,
+                    "begin": 167,
+                    "end": 172
+                },
+                {
+                    "sofa": 12,
+                    "begin": 172,
+                    "end": 173
+                },
+                {
+                    "sofa": 12,
+                    "begin": 173,
+                    "end": 174
+                },
+                {
+                    "sofa": 12,
+                    "begin": 174,
+                    "end": 175
+                },
+                {
+                    "sofa": 12,
+                    "begin": 175,
+                    "end": 189
+                },
+                {
+                    "sofa": 12,
+                    "begin": 189,
+                    "end": 190
+                },
+                {
+                    "sofa": 12,
+                    "begin": 190,
+                    "end": 200
+                },
+                {
+                    "sofa": 12,
+                    "begin": 200,
+                    "end": 201
+                },
+                {
+                    "sofa": 12,
+                    "begin": 201,
+                    "end": 219
+                },
+                {
+                    "sofa": 12,
+                    "begin": 219,
+                    "end": 220
+                },
+                {
+                    "sofa": 12,
+                    "begin": 223,
+                    "end": 229
+                },
+                {
+                    "sofa": 12,
+                    "begin": 230,
+                    "end": 237
+                },
+                {
+                    "sofa": 12,
+                    "begin": 237,
+                    "end": 238
+                },
+                {
+                    "sofa": 12,
+                    "begin": 241,
+                    "end": 244
+                },
+                {
+                    "sofa": 12,
+                    "begin": 245,
+                    "end": 248
+                },
+                {
+                    "sofa": 12,
+                    "begin": 249,
+                    "end": 256
+                },
+                {
+                    "sofa": 12,
+                    "begin": 257,
+                    "end": 265
+                },
+                {
+                    "sofa": 12,
+                    "begin": 266,
+                    "end": 268
+                },
+                {
+                    "sofa": 12,
+                    "begin": 269,
+                    "end": 270
+                },
+                {
+                    "sofa": 12,
+                    "begin": 271,
+                    "end": 275
+                },
+                {
+                    "sofa": 12,
+                    "begin": 276,
+                    "end": 278
+                },
+                {
+                    "sofa": 12,
+                    "begin": 279,
+                    "end": 287
+                },
+                {
+                    "sofa": 12,
+                    "begin": 288,
+                    "end": 291
+                },
+                {
+                    "sofa": 12,
+                    "begin": 292,
+                    "end": 298
+                },
+                {
+                    "sofa": 12,
+                    "begin": 298,
+                    "end": 299
+                },
+                {
+                    "sofa": 12,
+                    "begin": 300,
+                    "end": 305
+                },
+                {
+                    "sofa": 12,
+                    "begin": 306,
+                    "end": 313
+                },
+                {
+                    "sofa": 12,
+                    "begin": 314,
+                    "end": 317
+                },
+                {
+                    "sofa": 12,
+                    "begin": 318,
+                    "end": 321
+                },
+                {
+                    "sofa": 12,
+                    "begin": 322,
+                    "end": 331
+                },
+                {
+                    "sofa": 12,
+                    "begin": 332,
+                    "end": 341
+                },
+                {
+                    "sofa": 12,
+                    "begin": 342,
+                    "end": 345
+                },
+                {
+                    "sofa": 12,
+                    "begin": 346,
+                    "end": 351
+                },
+                {
+                    "sofa": 12,
+                    "begin": 352,
+                    "end": 356
+                },
+                {
+                    "sofa": 12,
+                    "begin": 357,
+                    "end": 362
+                },
+                {
+                    "sofa": 12,
+                    "begin": 362,
+                    "end": 363
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 241,
+                    "end": 363,
+                    "BiasedReasoningtoMakeaConclusion": "lack of evidence or use unverified and incomplete evidence to make a claim"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 241,
+                    "end": 363,
+                    "BiasedReasoningtoMakeaConclusion": "biased reasoning to make a conclusion"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufeffsnes-00372 A person can \"survive\" living on a diet of nothing but potatoes and butter\r\nSource: https://www.snopes.com/fact-check/potato-butter-diet/ \r\nFact checking: https://www.snopes.com/fact-check/potato-butter-diet/ \r\nActual content: \r\nYou can survive entirely on a diet of potatoes and butter, which provide all the necessary nutrients the human body needs. \r\n"
+        }
+    }
+}

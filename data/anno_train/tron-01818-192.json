@@ -1,0 +1,476 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 404,
+                    "language": "x-unspecified",
+                    "documentTitle": "132.%20tron-01818%20Tylenol%20Banned%20in%20South%20Carolina%20.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1894/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1894/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1894/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 401
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 19
+                },
+                {
+                    "sofa": 12,
+                    "begin": 20,
+                    "end": 26
+                },
+                {
+                    "sofa": 12,
+                    "begin": 27,
+                    "end": 29
+                },
+                {
+                    "sofa": 12,
+                    "begin": 30,
+                    "end": 35
+                },
+                {
+                    "sofa": 12,
+                    "begin": 36,
+                    "end": 44
+                },
+                {
+                    "sofa": 12,
+                    "begin": 47,
+                    "end": 53
+                },
+                {
+                    "sofa": 12,
+                    "begin": 54,
+                    "end": 59
+                },
+                {
+                    "sofa": 12,
+                    "begin": 59,
+                    "end": 60
+                },
+                {
+                    "sofa": 12,
+                    "begin": 60,
+                    "end": 61
+                },
+                {
+                    "sofa": 12,
+                    "begin": 61,
+                    "end": 62
+                },
+                {
+                    "sofa": 12,
+                    "begin": 62,
+                    "end": 81
+                },
+                {
+                    "sofa": 12,
+                    "begin": 81,
+                    "end": 82
+                },
+                {
+                    "sofa": 12,
+                    "begin": 82,
+                    "end": 89
+                },
+                {
+                    "sofa": 12,
+                    "begin": 89,
+                    "end": 90
+                },
+                {
+                    "sofa": 12,
+                    "begin": 90,
+                    "end": 122
+                },
+                {
+                    "sofa": 12,
+                    "begin": 122,
+                    "end": 127
+                },
+                {
+                    "sofa": 12,
+                    "begin": 127,
+                    "end": 128
+                },
+                {
+                    "sofa": 12,
+                    "begin": 131,
+                    "end": 135
+                },
+                {
+                    "sofa": 12,
+                    "begin": 136,
+                    "end": 144
+                },
+                {
+                    "sofa": 12,
+                    "begin": 145,
+                    "end": 150
+                },
+                {
+                    "sofa": 12,
+                    "begin": 150,
+                    "end": 151
+                },
+                {
+                    "sofa": 12,
+                    "begin": 151,
+                    "end": 152
+                },
+                {
+                    "sofa": 12,
+                    "begin": 152,
+                    "end": 153
+                },
+                {
+                    "sofa": 12,
+                    "begin": 153,
+                    "end": 175
+                },
+                {
+                    "sofa": 12,
+                    "begin": 175,
+                    "end": 176
+                },
+                {
+                    "sofa": 12,
+                    "begin": 176,
+                    "end": 208
+                },
+                {
+                    "sofa": 12,
+                    "begin": 208,
+                    "end": 209
+                },
+                {
+                    "sofa": 12,
+                    "begin": 212,
+                    "end": 218
+                },
+                {
+                    "sofa": 12,
+                    "begin": 219,
+                    "end": 226
+                },
+                {
+                    "sofa": 12,
+                    "begin": 226,
+                    "end": 227
+                },
+                {
+                    "sofa": 12,
+                    "begin": 230,
+                    "end": 235
+                },
+                {
+                    "sofa": 12,
+                    "begin": 236,
+                    "end": 244
+                },
+                {
+                    "sofa": 12,
+                    "begin": 245,
+                    "end": 247
+                },
+                {
+                    "sofa": 12,
+                    "begin": 248,
+                    "end": 251
+                },
+                {
+                    "sofa": 12,
+                    "begin": 252,
+                    "end": 259
+                },
+                {
+                    "sofa": 12,
+                    "begin": 260,
+                    "end": 263
+                },
+                {
+                    "sofa": 12,
+                    "begin": 264,
+                    "end": 268
+                },
+                {
+                    "sofa": 12,
+                    "begin": 269,
+                    "end": 271
+                },
+                {
+                    "sofa": 12,
+                    "begin": 272,
+                    "end": 279
+                },
+                {
+                    "sofa": 12,
+                    "begin": 280,
+                    "end": 283
+                },
+                {
+                    "sofa": 12,
+                    "begin": 284,
+                    "end": 289
+                },
+                {
+                    "sofa": 12,
+                    "begin": 290,
+                    "end": 293
+                },
+                {
+                    "sofa": 12,
+                    "begin": 294,
+                    "end": 305
+                },
+                {
+                    "sofa": 12,
+                    "begin": 306,
+                    "end": 310
+                },
+                {
+                    "sofa": 12,
+                    "begin": 311,
+                    "end": 314
+                },
+                {
+                    "sofa": 12,
+                    "begin": 315,
+                    "end": 321
+                },
+                {
+                    "sofa": 12,
+                    "begin": 322,
+                    "end": 324
+                },
+                {
+                    "sofa": 12,
+                    "begin": 325,
+                    "end": 330
+                },
+                {
+                    "sofa": 12,
+                    "begin": 331,
+                    "end": 338
+                },
+                {
+                    "sofa": 12,
+                    "begin": 339,
+                    "end": 342
+                },
+                {
+                    "sofa": 12,
+                    "begin": 343,
+                    "end": 347
+                },
+                {
+                    "sofa": 12,
+                    "begin": 348,
+                    "end": 350
+                },
+                {
+                    "sofa": 12,
+                    "begin": 351,
+                    "end": 363
+                },
+                {
+                    "sofa": 12,
+                    "begin": 364,
+                    "end": 371
+                },
+                {
+                    "sofa": 12,
+                    "begin": 372,
+                    "end": 374
+                },
+                {
+                    "sofa": 12,
+                    "begin": 375,
+                    "end": 381
+                },
+                {
+                    "sofa": 12,
+                    "begin": 382,
+                    "end": 388
+                },
+                {
+                    "sofa": 12,
+                    "begin": 389,
+                    "end": 393
+                },
+                {
+                    "sofa": 12,
+                    "begin": 394,
+                    "end": 396
+                },
+                {
+                    "sofa": 12,
+                    "begin": 397,
+                    "end": 400
+                },
+                {
+                    "sofa": 12,
+                    "begin": 400,
+                    "end": 401
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 230,
+                    "end": 401,
+                    "BiasedReasoningtoMakeaConclusion": "lack of evidence or use unverified and incomplete evidence to make a claim"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 230,
+                    "end": 401,
+                    "BiasedReasoningtoMakeaConclusion": "biased reasoning to make a conclusion"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufefftron-01818 Tylenol Banned in South Carolina \r\nSource https://paranormalforum.net/threads/tylenol-banned-in-south-carolina.4547/ \r\nFact checking https://www.truthorfiction.com/tylenol-banned-in-south-carolina/ \r\nActual content: \r\nSouth Carolina is now banning the sale of Tylenol and other OTC medications that use cotton in their bottles for fear of perpetuating slavery by making people pick it out. \r\n"
+        }
+    }
+}

@@ -1,0 +1,478 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 370,
+                    "language": "x-unspecified",
+                    "documentTitle": "131.%20tron-01828%20Donations%20for%20Baby%20Born%20With%20Heart%20Outside%20Body%20.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1893/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1893/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1893/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 367
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 21
+                },
+                {
+                    "sofa": 12,
+                    "begin": 22,
+                    "end": 25
+                },
+                {
+                    "sofa": 12,
+                    "begin": 26,
+                    "end": 30
+                },
+                {
+                    "sofa": 12,
+                    "begin": 31,
+                    "end": 35
+                },
+                {
+                    "sofa": 12,
+                    "begin": 36,
+                    "end": 40
+                },
+                {
+                    "sofa": 12,
+                    "begin": 41,
+                    "end": 46
+                },
+                {
+                    "sofa": 12,
+                    "begin": 47,
+                    "end": 54
+                },
+                {
+                    "sofa": 12,
+                    "begin": 55,
+                    "end": 59
+                },
+                {
+                    "sofa": 12,
+                    "begin": 62,
+                    "end": 68
+                },
+                {
+                    "sofa": 12,
+                    "begin": 69,
+                    "end": 74
+                },
+                {
+                    "sofa": 12,
+                    "begin": 74,
+                    "end": 75
+                },
+                {
+                    "sofa": 12,
+                    "begin": 75,
+                    "end": 76
+                },
+                {
+                    "sofa": 12,
+                    "begin": 76,
+                    "end": 77
+                },
+                {
+                    "sofa": 12,
+                    "begin": 77,
+                    "end": 91
+                },
+                {
+                    "sofa": 12,
+                    "begin": 91,
+                    "end": 92
+                },
+                {
+                    "sofa": 12,
+                    "begin": 92,
+                    "end": 102
+                },
+                {
+                    "sofa": 12,
+                    "begin": 102,
+                    "end": 103
+                },
+                {
+                    "sofa": 12,
+                    "begin": 103,
+                    "end": 124
+                },
+                {
+                    "sofa": 12,
+                    "begin": 124,
+                    "end": 125
+                },
+                {
+                    "sofa": 12,
+                    "begin": 128,
+                    "end": 132
+                },
+                {
+                    "sofa": 12,
+                    "begin": 133,
+                    "end": 141
+                },
+                {
+                    "sofa": 12,
+                    "begin": 142,
+                    "end": 147
+                },
+                {
+                    "sofa": 12,
+                    "begin": 147,
+                    "end": 148
+                },
+                {
+                    "sofa": 12,
+                    "begin": 148,
+                    "end": 149
+                },
+                {
+                    "sofa": 12,
+                    "begin": 149,
+                    "end": 150
+                },
+                {
+                    "sofa": 12,
+                    "begin": 150,
+                    "end": 172
+                },
+                {
+                    "sofa": 12,
+                    "begin": 172,
+                    "end": 173
+                },
+                {
+                    "sofa": 12,
+                    "begin": 173,
+                    "end": 220
+                },
+                {
+                    "sofa": 12,
+                    "begin": 220,
+                    "end": 221
+                },
+                {
+                    "sofa": 12,
+                    "begin": 224,
+                    "end": 230
+                },
+                {
+                    "sofa": 12,
+                    "begin": 231,
+                    "end": 238
+                },
+                {
+                    "sofa": 12,
+                    "begin": 238,
+                    "end": 239
+                },
+                {
+                    "sofa": 12,
+                    "begin": 242,
+                    "end": 250
+                },
+                {
+                    "sofa": 12,
+                    "begin": 251,
+                    "end": 256
+                },
+                {
+                    "sofa": 12,
+                    "begin": 256,
+                    "end": 257
+                },
+                {
+                    "sofa": 12,
+                    "begin": 260,
+                    "end": 261
+                },
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 267
+                },
+                {
+                    "sofa": 12,
+                    "begin": 268,
+                    "end": 274
+                },
+                {
+                    "sofa": 12,
+                    "begin": 275,
+                    "end": 277
+                },
+                {
+                    "sofa": 12,
+                    "begin": 278,
+                    "end": 283
+                },
+                {
+                    "sofa": 12,
+                    "begin": 285,
+                    "end": 287
+                },
+                {
+                    "sofa": 12,
+                    "begin": 288,
+                    "end": 291
+                },
+                {
+                    "sofa": 12,
+                    "begin": 292,
+                    "end": 299
+                },
+                {
+                    "sofa": 12,
+                    "begin": 300,
+                    "end": 302
+                },
+                {
+                    "sofa": 12,
+                    "begin": 303,
+                    "end": 309
+                },
+                {
+                    "sofa": 12,
+                    "begin": 310,
+                    "end": 311
+                },
+                {
+                    "sofa": 12,
+                    "begin": 311,
+                    "end": 312
+                },
+                {
+                    "sofa": 12,
+                    "begin": 313,
+                    "end": 316
+                },
+                {
+                    "sofa": 12,
+                    "begin": 317,
+                    "end": 322
+                },
+                {
+                    "sofa": 12,
+                    "begin": 323,
+                    "end": 326
+                },
+                {
+                    "sofa": 12,
+                    "begin": 327,
+                    "end": 331
+                },
+                {
+                    "sofa": 12,
+                    "begin": 332,
+                    "end": 336
+                },
+                {
+                    "sofa": 12,
+                    "begin": 337,
+                    "end": 341
+                },
+                {
+                    "sofa": 12,
+                    "begin": 342,
+                    "end": 346
+                },
+                {
+                    "sofa": 12,
+                    "begin": 347,
+                    "end": 352
+                },
+                {
+                    "sofa": 12,
+                    "begin": 353,
+                    "end": 360
+                },
+                {
+                    "sofa": 12,
+                    "begin": 361,
+                    "end": 365
+                },
+                {
+                    "sofa": 12,
+                    "begin": 365,
+                    "end": 366
+                },
+                {
+                    "sofa": 12,
+                    "begin": 366,
+                    "end": 367
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 283,
+                    "EstablishingLegitimacy": "establishing legitimacy"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 283,
+                    "EstablishingLegitimacy": "call to action"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 283,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 283,
+                    "DistinctiveLinguisticFeatures": "ellipses, exaggerated/excessive usage of punctuation marks"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufefftron-01828 Donations for Baby Born With Heart Outside Body \r\nSource https://www.snopes.com/fact-check/appeal-from-the-heart/ \r\nFact checking https://www.truthorfiction.com/donations-for-baby-born-with-heart-outside-body/ \r\nActual content: \r\nFacebook image: \r\n[ DON'T FORGET TO SHARE\r\nFb has decided to donate 1$ per share for this baby born with Heart outside body.] \r\n"
+        }
+    }
+}

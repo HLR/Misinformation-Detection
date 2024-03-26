@@ -1,0 +1,696 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 587,
+                    "language": "x-unspecified",
+                    "documentTitle": "114.%20snes-05709%20A%20few%20drops%20of%20Visine%20brand%20eye%20drops%20taken%20internally%20will%20induce%20uncontrollable%20diarrhea.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1875/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1875/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1875/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 103
+                },
+                {
+                    "sofa": 12,
+                    "begin": 106,
+                    "end": 367
+                },
+                {
+                    "sofa": 12,
+                    "begin": 368,
+                    "end": 442
+                },
+                {
+                    "sofa": 12,
+                    "begin": 443,
+                    "end": 584
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 13
+                },
+                {
+                    "sofa": 12,
+                    "begin": 14,
+                    "end": 17
+                },
+                {
+                    "sofa": 12,
+                    "begin": 18,
+                    "end": 23
+                },
+                {
+                    "sofa": 12,
+                    "begin": 24,
+                    "end": 26
+                },
+                {
+                    "sofa": 12,
+                    "begin": 27,
+                    "end": 33
+                },
+                {
+                    "sofa": 12,
+                    "begin": 34,
+                    "end": 39
+                },
+                {
+                    "sofa": 12,
+                    "begin": 40,
+                    "end": 43
+                },
+                {
+                    "sofa": 12,
+                    "begin": 44,
+                    "end": 49
+                },
+                {
+                    "sofa": 12,
+                    "begin": 50,
+                    "end": 55
+                },
+                {
+                    "sofa": 12,
+                    "begin": 56,
+                    "end": 66
+                },
+                {
+                    "sofa": 12,
+                    "begin": 67,
+                    "end": 71
+                },
+                {
+                    "sofa": 12,
+                    "begin": 72,
+                    "end": 78
+                },
+                {
+                    "sofa": 12,
+                    "begin": 79,
+                    "end": 93
+                },
+                {
+                    "sofa": 12,
+                    "begin": 94,
+                    "end": 102
+                },
+                {
+                    "sofa": 12,
+                    "begin": 102,
+                    "end": 103
+                },
+                {
+                    "sofa": 12,
+                    "begin": 106,
+                    "end": 112
+                },
+                {
+                    "sofa": 12,
+                    "begin": 112,
+                    "end": 113
+                },
+                {
+                    "sofa": 12,
+                    "begin": 114,
+                    "end": 119
+                },
+                {
+                    "sofa": 12,
+                    "begin": 119,
+                    "end": 120
+                },
+                {
+                    "sofa": 12,
+                    "begin": 120,
+                    "end": 121
+                },
+                {
+                    "sofa": 12,
+                    "begin": 121,
+                    "end": 122
+                },
+                {
+                    "sofa": 12,
+                    "begin": 122,
+                    "end": 136
+                },
+                {
+                    "sofa": 12,
+                    "begin": 136,
+                    "end": 137
+                },
+                {
+                    "sofa": 12,
+                    "begin": 137,
+                    "end": 147
+                },
+                {
+                    "sofa": 12,
+                    "begin": 147,
+                    "end": 148
+                },
+                {
+                    "sofa": 12,
+                    "begin": 148,
+                    "end": 169
+                },
+                {
+                    "sofa": 12,
+                    "begin": 169,
+                    "end": 170
+                },
+                {
+                    "sofa": 12,
+                    "begin": 173,
+                    "end": 177
+                },
+                {
+                    "sofa": 12,
+                    "begin": 178,
+                    "end": 186
+                },
+                {
+                    "sofa": 12,
+                    "begin": 186,
+                    "end": 187
+                },
+                {
+                    "sofa": 12,
+                    "begin": 188,
+                    "end": 193
+                },
+                {
+                    "sofa": 12,
+                    "begin": 193,
+                    "end": 194
+                },
+                {
+                    "sofa": 12,
+                    "begin": 194,
+                    "end": 195
+                },
+                {
+                    "sofa": 12,
+                    "begin": 195,
+                    "end": 196
+                },
+                {
+                    "sofa": 12,
+                    "begin": 196,
+                    "end": 210
+                },
+                {
+                    "sofa": 12,
+                    "begin": 210,
+                    "end": 211
+                },
+                {
+                    "sofa": 12,
+                    "begin": 211,
+                    "end": 221
+                },
+                {
+                    "sofa": 12,
+                    "begin": 221,
+                    "end": 222
+                },
+                {
+                    "sofa": 12,
+                    "begin": 222,
+                    "end": 243
+                },
+                {
+                    "sofa": 12,
+                    "begin": 243,
+                    "end": 244
+                },
+                {
+                    "sofa": 12,
+                    "begin": 247,
+                    "end": 253
+                },
+                {
+                    "sofa": 12,
+                    "begin": 254,
+                    "end": 261
+                },
+                {
+                    "sofa": 12,
+                    "begin": 261,
+                    "end": 262
+                },
+                {
+                    "sofa": 12,
+                    "begin": 265,
+                    "end": 269
+                },
+                {
+                    "sofa": 12,
+                    "begin": 270,
+                    "end": 275
+                },
+                {
+                    "sofa": 12,
+                    "begin": 276,
+                    "end": 280
+                },
+                {
+                    "sofa": 12,
+                    "begin": 281,
+                    "end": 289
+                },
+                {
+                    "sofa": 12,
+                    "begin": 290,
+                    "end": 293
+                },
+                {
+                    "sofa": 12,
+                    "begin": 294,
+                    "end": 302
+                },
+                {
+                    "sofa": 12,
+                    "begin": 303,
+                    "end": 313
+                },
+                {
+                    "sofa": 12,
+                    "begin": 314,
+                    "end": 318
+                },
+                {
+                    "sofa": 12,
+                    "begin": 319,
+                    "end": 320
+                },
+                {
+                    "sofa": 12,
+                    "begin": 321,
+                    "end": 327
+                },
+                {
+                    "sofa": 12,
+                    "begin": 328,
+                    "end": 331
+                },
+                {
+                    "sofa": 12,
+                    "begin": 332,
+                    "end": 339
+                },
+                {
+                    "sofa": 12,
+                    "begin": 340,
+                    "end": 343
+                },
+                {
+                    "sofa": 12,
+                    "begin": 344,
+                    "end": 346
+                },
+                {
+                    "sofa": 12,
+                    "begin": 347,
+                    "end": 356
+                },
+                {
+                    "sofa": 12,
+                    "begin": 357,
+                    "end": 366
+                },
+                {
+                    "sofa": 12,
+                    "begin": 366,
+                    "end": 367
+                },
+                {
+                    "sofa": 12,
+                    "begin": 368,
+                    "end": 373
+                },
+                {
+                    "sofa": 12,
+                    "begin": 374,
+                    "end": 378
+                },
+                {
+                    "sofa": 12,
+                    "begin": 379,
+                    "end": 382
+                },
+                {
+                    "sofa": 12,
+                    "begin": 383,
+                    "end": 386
+                },
+                {
+                    "sofa": 12,
+                    "begin": 387,
+                    "end": 390
+                },
+                {
+                    "sofa": 12,
+                    "begin": 391,
+                    "end": 401
+                },
+                {
+                    "sofa": 12,
+                    "begin": 402,
+                    "end": 408
+                },
+                {
+                    "sofa": 12,
+                    "begin": 409,
+                    "end": 412
+                },
+                {
+                    "sofa": 12,
+                    "begin": 413,
+                    "end": 414
+                },
+                {
+                    "sofa": 12,
+                    "begin": 415,
+                    "end": 421
+                },
+                {
+                    "sofa": 12,
+                    "begin": 422,
+                    "end": 433
+                },
+                {
+                    "sofa": 12,
+                    "begin": 434,
+                    "end": 441
+                },
+                {
+                    "sofa": 12,
+                    "begin": 441,
+                    "end": 442
+                },
+                {
+                    "sofa": 12,
+                    "begin": 443,
+                    "end": 444
+                },
+                {
+                    "sofa": 12,
+                    "begin": 445,
+                    "end": 448
+                },
+                {
+                    "sofa": 12,
+                    "begin": 449,
+                    "end": 457
+                },
+                {
+                    "sofa": 12,
+                    "begin": 458,
+                    "end": 460
+                },
+                {
+                    "sofa": 12,
+                    "begin": 461,
+                    "end": 470
+                },
+                {
+                    "sofa": 12,
+                    "begin": 471,
+                    "end": 476
+                },
+                {
+                    "sofa": 12,
+                    "begin": 477,
+                    "end": 480
+                },
+                {
+                    "sofa": 12,
+                    "begin": 481,
+                    "end": 491
+                },
+                {
+                    "sofa": 12,
+                    "begin": 492,
+                    "end": 497
+                },
+                {
+                    "sofa": 12,
+                    "begin": 498,
+                    "end": 501
+                },
+                {
+                    "sofa": 12,
+                    "begin": 502,
+                    "end": 509
+                },
+                {
+                    "sofa": 12,
+                    "begin": 510,
+                    "end": 512
+                },
+                {
+                    "sofa": 12,
+                    "begin": 513,
+                    "end": 516
+                },
+                {
+                    "sofa": 12,
+                    "begin": 517,
+                    "end": 523
+                },
+                {
+                    "sofa": 12,
+                    "begin": 524,
+                    "end": 527
+                },
+                {
+                    "sofa": 12,
+                    "begin": 528,
+                    "end": 531
+                },
+                {
+                    "sofa": 12,
+                    "begin": 532,
+                    "end": 536
+                },
+                {
+                    "sofa": 12,
+                    "begin": 537,
+                    "end": 539
+                },
+                {
+                    "sofa": 12,
+                    "begin": 540,
+                    "end": 543
+                },
+                {
+                    "sofa": 12,
+                    "begin": 544,
+                    "end": 551
+                },
+                {
+                    "sofa": 12,
+                    "begin": 552,
+                    "end": 556
+                },
+                {
+                    "sofa": 12,
+                    "begin": 557,
+                    "end": 558
+                },
+                {
+                    "sofa": 12,
+                    "begin": 559,
+                    "end": 564
+                },
+                {
+                    "sofa": 12,
+                    "begin": 565,
+                    "end": 569
+                },
+                {
+                    "sofa": 12,
+                    "begin": 570,
+                    "end": 572
+                },
+                {
+                    "sofa": 12,
+                    "begin": 573,
+                    "end": 574
+                },
+                {
+                    "sofa": 12,
+                    "begin": 574,
+                    "end": 577
+                },
+                {
+                    "sofa": 12,
+                    "begin": 578,
+                    "end": 582
+                },
+                {
+                    "sofa": 12,
+                    "begin": 582,
+                    "end": 583
+                },
+                {
+                    "sofa": 12,
+                    "begin": 583,
+                    "end": 584
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 265,
+                    "end": 584,
+                    "BiasedReasoningtoMakeaConclusion": "lack of evidence or use unverified and incomplete evidence to make a claim",
+                    "UsingAnecdotesandPersonalExperienceasEvidence": "using anecdotes and personal experience as evidence"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufeffsnes-05709 A few drops of Visine brand eye drops taken internally will induce uncontrollable diarrhea. \r\nSource: https://www.snopes.com/fact-check/visine-diarrhea-prank/ \r\nFact checking: https://www.snopes.com/fact-check/visine-diarrhea-prank/ \r\nActual content: \r\nI've heard that barmaids and cocktail waitresses have a secret for getting rid of obnoxious customers. Seems they use the eye medication Visine for a little Montezuma's revenge. A few eyedrops in someone's drink can apparently leave him sitting on the toilet for the rest of the evening with a nasty case of \"the runs.\" \r\n"
+        }
+    }
+}

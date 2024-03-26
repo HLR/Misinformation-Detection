@@ -1,0 +1,848 @@
+{
+    "_context": {
+        "_types": {
+            "DocumentMetaData": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Persuasive_Labels": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sentence": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                }
+            },
+            "Sofa": {
+                "_feature_types": {
+                    "sofaArray": "_ref"
+                }
+            },
+            "TagsetDescription": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "tags": "_ref"
+                }
+            },
+            "Token": {
+                "_feature_types": {
+                    "sofa": "_ref",
+                    "parent": "_ref",
+                    "lemma": "_ref",
+                    "stem": "_ref",
+                    "pos": "_ref",
+                    "morph": "_ref",
+                    "form": "_ref"
+                }
+            },
+            "DocumentAnnotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentMetaData"
+                ]
+            },
+            "Annotation": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "DocumentAnnotation",
+                    "Persuasive_Labels",
+                    "Sentence",
+                    "TagsetDescription",
+                    "Token"
+                ]
+            },
+            "AnnotationBase": {
+                "_feature_types": {
+                    "sofa": "_ref"
+                },
+                "_subtypes": [
+                    "Annotation"
+                ]
+            },
+            "TOP": {
+                "_subtypes": [
+                    "AnnotationBase",
+                    "Sofa"
+                ]
+            }
+        }
+    },
+    "_views": {
+        "_InitialView": {
+            "DocumentMetaData": [
+                {
+                    "sofa": 12,
+                    "end": 696,
+                    "language": "x-unspecified",
+                    "documentTitle": "102.%20snes-01768%20The%20reaction%20between%20metallic%20mercury%20and%20aluminum,%20which%20produces%20a%20dramatic%20chain%20reaction%20popular%20on%20YouTube%20science%20channels,%20is%20evidence%20that%20vaccines%20are%20not%20safe.txt",
+                    "documentId": "admin",
+                    "documentUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1862/source/admin",
+                    "collectionId": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1862/source/",
+                    "documentBaseUri": "file:/C:/Users/pengwei/.webanno/repository/project/20/document/1862/source/",
+                    "isLastSegment": false
+                }
+            ],
+            "TagsetDescription": [
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",
+                    "name": "UD Universal Dependencies (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",
+                    "name": "Named Entity tags",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",
+                    "name": "Operation",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",
+                    "name": "UD Universal POS tags (v2)",
+                    "input": false
+                },
+                {
+                    "sofa": 12,
+                    "layer": "webanno.custom.Persuasive_Labels",
+                    "name": "2. Using Anecdotes and Personal Experience as Evidence",
+                    "input": false
+                }
+            ],
+            "Sentence": [
+                {
+                    "sofa": 12,
+                    "end": 181
+                },
+                {
+                    "sofa": 12,
+                    "begin": 184,
+                    "end": 357
+                },
+                {
+                    "sofa": 12,
+                    "begin": 358,
+                    "end": 502
+                },
+                {
+                    "sofa": 12,
+                    "begin": 503,
+                    "end": 558
+                },
+                {
+                    "sofa": 12,
+                    "begin": 559,
+                    "end": 694
+                }
+            ],
+            "Token": [
+                {
+                    "sofa": 12,
+                    "end": 5
+                },
+                {
+                    "sofa": 12,
+                    "begin": 5,
+                    "end": 6
+                },
+                {
+                    "sofa": 12,
+                    "begin": 6,
+                    "end": 11
+                },
+                {
+                    "sofa": 12,
+                    "begin": 12,
+                    "end": 15
+                },
+                {
+                    "sofa": 12,
+                    "begin": 16,
+                    "end": 24
+                },
+                {
+                    "sofa": 12,
+                    "begin": 25,
+                    "end": 32
+                },
+                {
+                    "sofa": 12,
+                    "begin": 33,
+                    "end": 41
+                },
+                {
+                    "sofa": 12,
+                    "begin": 42,
+                    "end": 49
+                },
+                {
+                    "sofa": 12,
+                    "begin": 50,
+                    "end": 53
+                },
+                {
+                    "sofa": 12,
+                    "begin": 54,
+                    "end": 62
+                },
+                {
+                    "sofa": 12,
+                    "begin": 62,
+                    "end": 63
+                },
+                {
+                    "sofa": 12,
+                    "begin": 64,
+                    "end": 69
+                },
+                {
+                    "sofa": 12,
+                    "begin": 70,
+                    "end": 78
+                },
+                {
+                    "sofa": 12,
+                    "begin": 79,
+                    "end": 80
+                },
+                {
+                    "sofa": 12,
+                    "begin": 81,
+                    "end": 89
+                },
+                {
+                    "sofa": 12,
+                    "begin": 90,
+                    "end": 95
+                },
+                {
+                    "sofa": 12,
+                    "begin": 96,
+                    "end": 104
+                },
+                {
+                    "sofa": 12,
+                    "begin": 105,
+                    "end": 112
+                },
+                {
+                    "sofa": 12,
+                    "begin": 113,
+                    "end": 115
+                },
+                {
+                    "sofa": 12,
+                    "begin": 116,
+                    "end": 123
+                },
+                {
+                    "sofa": 12,
+                    "begin": 124,
+                    "end": 131
+                },
+                {
+                    "sofa": 12,
+                    "begin": 132,
+                    "end": 140
+                },
+                {
+                    "sofa": 12,
+                    "begin": 140,
+                    "end": 141
+                },
+                {
+                    "sofa": 12,
+                    "begin": 142,
+                    "end": 144
+                },
+                {
+                    "sofa": 12,
+                    "begin": 145,
+                    "end": 153
+                },
+                {
+                    "sofa": 12,
+                    "begin": 154,
+                    "end": 158
+                },
+                {
+                    "sofa": 12,
+                    "begin": 159,
+                    "end": 167
+                },
+                {
+                    "sofa": 12,
+                    "begin": 168,
+                    "end": 171
+                },
+                {
+                    "sofa": 12,
+                    "begin": 172,
+                    "end": 175
+                },
+                {
+                    "sofa": 12,
+                    "begin": 176,
+                    "end": 180
+                },
+                {
+                    "sofa": 12,
+                    "begin": 180,
+                    "end": 181
+                },
+                {
+                    "sofa": 12,
+                    "begin": 184,
+                    "end": 190
+                },
+                {
+                    "sofa": 12,
+                    "begin": 190,
+                    "end": 191
+                },
+                {
+                    "sofa": 12,
+                    "begin": 192,
+                    "end": 197
+                },
+                {
+                    "sofa": 12,
+                    "begin": 197,
+                    "end": 198
+                },
+                {
+                    "sofa": 12,
+                    "begin": 198,
+                    "end": 199
+                },
+                {
+                    "sofa": 12,
+                    "begin": 199,
+                    "end": 200
+                },
+                {
+                    "sofa": 12,
+                    "begin": 200,
+                    "end": 210
+                },
+                {
+                    "sofa": 12,
+                    "begin": 210,
+                    "end": 211
+                },
+                {
+                    "sofa": 12,
+                    "begin": 211,
+                    "end": 216
+                },
+                {
+                    "sofa": 12,
+                    "begin": 216,
+                    "end": 217
+                },
+                {
+                    "sofa": 12,
+                    "begin": 217,
+                    "end": 226
+                },
+                {
+                    "sofa": 12,
+                    "begin": 226,
+                    "end": 227
+                },
+                {
+                    "sofa": 12,
+                    "begin": 227,
+                    "end": 232
+                },
+                {
+                    "sofa": 12,
+                    "begin": 232,
+                    "end": 233
+                },
+                {
+                    "sofa": 12,
+                    "begin": 233,
+                    "end": 238
+                },
+                {
+                    "sofa": 12,
+                    "begin": 241,
+                    "end": 245
+                },
+                {
+                    "sofa": 12,
+                    "begin": 246,
+                    "end": 254
+                },
+                {
+                    "sofa": 12,
+                    "begin": 254,
+                    "end": 255
+                },
+                {
+                    "sofa": 12,
+                    "begin": 256,
+                    "end": 261
+                },
+                {
+                    "sofa": 12,
+                    "begin": 261,
+                    "end": 262
+                },
+                {
+                    "sofa": 12,
+                    "begin": 262,
+                    "end": 263
+                },
+                {
+                    "sofa": 12,
+                    "begin": 263,
+                    "end": 264
+                },
+                {
+                    "sofa": 12,
+                    "begin": 264,
+                    "end": 278
+                },
+                {
+                    "sofa": 12,
+                    "begin": 278,
+                    "end": 279
+                },
+                {
+                    "sofa": 12,
+                    "begin": 279,
+                    "end": 289
+                },
+                {
+                    "sofa": 12,
+                    "begin": 289,
+                    "end": 290
+                },
+                {
+                    "sofa": 12,
+                    "begin": 290,
+                    "end": 328
+                },
+                {
+                    "sofa": 12,
+                    "begin": 328,
+                    "end": 329
+                },
+                {
+                    "sofa": 12,
+                    "begin": 332,
+                    "end": 338
+                },
+                {
+                    "sofa": 12,
+                    "begin": 339,
+                    "end": 346
+                },
+                {
+                    "sofa": 12,
+                    "begin": 346,
+                    "end": 347
+                },
+                {
+                    "sofa": 12,
+                    "begin": 350,
+                    "end": 354
+                },
+                {
+                    "sofa": 12,
+                    "begin": 354,
+                    "end": 355
+                },
+                {
+                    "sofa": 12,
+                    "begin": 355,
+                    "end": 356
+                },
+                {
+                    "sofa": 12,
+                    "begin": 356,
+                    "end": 357
+                },
+                {
+                    "sofa": 12,
+                    "begin": 358,
+                    "end": 362
+                },
+                {
+                    "sofa": 12,
+                    "begin": 363,
+                    "end": 371
+                },
+                {
+                    "sofa": 12,
+                    "begin": 372,
+                    "end": 379
+                },
+                {
+                    "sofa": 12,
+                    "begin": 380,
+                    "end": 390
+                },
+                {
+                    "sofa": 12,
+                    "begin": 391,
+                    "end": 395
+                },
+                {
+                    "sofa": 12,
+                    "begin": 396,
+                    "end": 403
+                },
+                {
+                    "sofa": 12,
+                    "begin": 404,
+                    "end": 414
+                },
+                {
+                    "sofa": 12,
+                    "begin": 415,
+                    "end": 416
+                },
+                {
+                    "sofa": 12,
+                    "begin": 416,
+                    "end": 423
+                },
+                {
+                    "sofa": 12,
+                    "begin": 423,
+                    "end": 424
+                },
+                {
+                    "sofa": 12,
+                    "begin": 424,
+                    "end": 425
+                },
+                {
+                    "sofa": 12,
+                    "begin": 426,
+                    "end": 431
+                },
+                {
+                    "sofa": 12,
+                    "begin": 432,
+                    "end": 437
+                },
+                {
+                    "sofa": 12,
+                    "begin": 438,
+                    "end": 445
+                },
+                {
+                    "sofa": 12,
+                    "begin": 446,
+                    "end": 448
+                },
+                {
+                    "sofa": 12,
+                    "begin": 449,
+                    "end": 456
+                },
+                {
+                    "sofa": 12,
+                    "begin": 457,
+                    "end": 465
+                },
+                {
+                    "sofa": 12,
+                    "begin": 466,
+                    "end": 469
+                },
+                {
+                    "sofa": 12,
+                    "begin": 470,
+                    "end": 479
+                },
+                {
+                    "sofa": 12,
+                    "begin": 479,
+                    "end": 480
+                },
+                {
+                    "sofa": 12,
+                    "begin": 481,
+                    "end": 485
+                },
+                {
+                    "sofa": 12,
+                    "begin": 486,
+                    "end": 488
+                },
+                {
+                    "sofa": 12,
+                    "begin": 489,
+                    "end": 492
+                },
+                {
+                    "sofa": 12,
+                    "begin": 493,
+                    "end": 501
+                },
+                {
+                    "sofa": 12,
+                    "begin": 501,
+                    "end": 502
+                },
+                {
+                    "sofa": 12,
+                    "begin": 503,
+                    "end": 507
+                },
+                {
+                    "sofa": 12,
+                    "begin": 508,
+                    "end": 512
+                },
+                {
+                    "sofa": 12,
+                    "begin": 513,
+                    "end": 515
+                },
+                {
+                    "sofa": 12,
+                    "begin": 516,
+                    "end": 522
+                },
+                {
+                    "sofa": 12,
+                    "begin": 523,
+                    "end": 530
+                },
+                {
+                    "sofa": 12,
+                    "begin": 531,
+                    "end": 535
+                },
+                {
+                    "sofa": 12,
+                    "begin": 536,
+                    "end": 539
+                },
+                {
+                    "sofa": 12,
+                    "begin": 540,
+                    "end": 547
+                },
+                {
+                    "sofa": 12,
+                    "begin": 548,
+                    "end": 551
+                },
+                {
+                    "sofa": 12,
+                    "begin": 552,
+                    "end": 557
+                },
+                {
+                    "sofa": 12,
+                    "begin": 557,
+                    "end": 558
+                },
+                {
+                    "sofa": 12,
+                    "begin": 559,
+                    "end": 562
+                },
+                {
+                    "sofa": 12,
+                    "begin": 563,
+                    "end": 566
+                },
+                {
+                    "sofa": 12,
+                    "begin": 567,
+                    "end": 572
+                },
+                {
+                    "sofa": 12,
+                    "begin": 573,
+                    "end": 578
+                },
+                {
+                    "sofa": 12,
+                    "begin": 579,
+                    "end": 583
+                },
+                {
+                    "sofa": 12,
+                    "begin": 583,
+                    "end": 584
+                },
+                {
+                    "sofa": 12,
+                    "begin": 584,
+                    "end": 585
+                },
+                {
+                    "sofa": 12,
+                    "begin": 585,
+                    "end": 596
+                },
+                {
+                    "sofa": 12,
+                    "begin": 596,
+                    "end": 597
+                },
+                {
+                    "sofa": 12,
+                    "begin": 597,
+                    "end": 611
+                },
+                {
+                    "sofa": 12,
+                    "begin": 613,
+                    "end": 614
+                },
+                {
+                    "sofa": 12,
+                    "begin": 614,
+                    "end": 633
+                },
+                {
+                    "sofa": 12,
+                    "begin": 633,
+                    "end": 634
+                },
+                {
+                    "sofa": 12,
+                    "begin": 634,
+                    "end": 635
+                },
+                {
+                    "sofa": 12,
+                    "begin": 635,
+                    "end": 650
+                },
+                {
+                    "sofa": 12,
+                    "begin": 650,
+                    "end": 651
+                },
+                {
+                    "sofa": 12,
+                    "begin": 651,
+                    "end": 652
+                },
+                {
+                    "sofa": 12,
+                    "begin": 652,
+                    "end": 677
+                },
+                {
+                    "sofa": 12,
+                    "begin": 677,
+                    "end": 678
+                },
+                {
+                    "sofa": 12,
+                    "begin": 678,
+                    "end": 679
+                },
+                {
+                    "sofa": 12,
+                    "begin": 679,
+                    "end": 685
+                },
+                {
+                    "sofa": 12,
+                    "begin": 687,
+                    "end": 688
+                },
+                {
+                    "sofa": 12,
+                    "begin": 688,
+                    "end": 693
+                },
+                {
+                    "sofa": 12,
+                    "begin": 693,
+                    "end": 694
+                }
+            ],
+            "Persuasive_Labels": [
+                {
+                    "sofa": 12,
+                    "begin": 354,
+                    "end": 357,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 354,
+                    "end": 357,
+                    "DistinctiveLinguisticFeatures": "ellipses, exaggerated/excessive usage of punctuation marks"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 358,
+                    "end": 502,
+                    "EstablishingLegitimacy": "establishing legitimacy"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 358,
+                    "end": 502,
+                    "EstablishingLegitimacy": "legitimate persuasive techniques: rhetorical question"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 404,
+                    "end": 424,
+                    "EstablishingLegitimacy": "surface credibility markers - medical jargon"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 531,
+                    "end": 535,
+                    "DistinctiveLinguisticFeatures": "distinctive linguistic features"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 531,
+                    "end": 535,
+                    "DistinctiveLinguisticFeatures": "uppercase words"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 613,
+                    "end": 685,
+                    "PoliticizingHealthIssues": "politicizing health issues"
+                },
+                {
+                    "sofa": 12,
+                    "begin": 613,
+                    "end": 685,
+                    "PoliticizingHealthIssues": "freedom of choice and agency"
+                }
+            ]
+        }
+    },
+    "_referenced_fss": {
+        "12": {
+            "_type": "Sofa",
+            "sofaNum": 1,
+            "sofaID": "_InitialView",
+            "mimeType": "text",
+            "sofaString": "\ufeffsnes-01768 The reaction between metallic mercury and aluminum, which produces a dramatic chain reaction popular on YouTube science channels, is evidence that vaccines are not safe. \r\nSource: https://archive.ph/Z8Ynw#selection-511.0-565.6 \r\nFact checking: https://www.snopes.com/fact-check/viral-mercury-aluminum-mixing-vaccines/ \r\nActual content: \r\nHmmm... What mandated medical injections also combine thimerosal (mercury), which still remains in several vaccines and aluminium, used in all vaccines? It's time to reject vaccine MYTH and embrace the truth. You can begin right here:\u00a0tinyurl.com/FullAccessHere\r\n#RevolutionForChoice\u00a0#InformedConsent\u00a0#EducateBeforeYouVaccinate\u00a0#VAXXED\r\n[Video]\r\n"
+        }
+    }
+}
