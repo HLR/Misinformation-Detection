@@ -50,6 +50,9 @@ data/multi-fc
 └── train.tsv
 ```
 
+Then, run the code `src/data_preprocess.py` to generate the clean data from raw data. Note that the current data excludes the low-frequency labels. If you want to use the dataset without the removed labels, change the function `get_low_freq` in the `annotation.py` file
+
+
 ## Persuasive Writing Strategy Detection with RoBERTa
 
 To train and test RoBERTa on the persuasive strategy labeling, you should run the following scripts based on the level:
